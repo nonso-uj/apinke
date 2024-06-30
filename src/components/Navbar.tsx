@@ -58,7 +58,7 @@ const Navbar = ({ contactPage } :any) => {
 
                             <PopoverPanel anchor="bottom" className={`flex flex-col items-center justify-start w-full h-full p-3 pt-10  z-50`}>
                                     <div 
-                                        className={`w-full h-full flex flex-col items-start justify-start gap-y-8 pl-5 pt-10 bg-black text-white text-4xl text-bold font_bold`}
+                                        className={`w-full h-full flex flex-col items-start justify-start gap-y-4 pl-5 pt-10 bg-black text-white text-4xl text-bold font_bold`}
                                     >
 
                                         <Link to={'/'}>
