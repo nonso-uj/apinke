@@ -27,12 +27,12 @@ const TabMenu = () => {
           </div>
         </Tabs.Item>
         <Tabs.Item title="Portfolio Workshop">
-          <div className="w-full flex flex-row items-center justify-center bg-black text-white">
+          <div className="w-full flex flex-col lg:flex-row items-center justify-center bg-black text-white">
             <div className="w-full h-full">
-              <img src="/images/work-2.png" alt="" className="w-full h-[80vh] object-cover object-center" />
+              <img src="/images/work-2.png" alt="" className="w-full h-60 lg:h-[80vh] object-cover object-center" />
             </div>
             <div className="w-full h-full">
-              <div className="w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-5">
+              <div className="w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-5 py-10">
                 <p className="text-4xl font_regular font-semibold">PORTFOLIO WORKSHOP</p>
                 <p className="text-base font_regular font-normal">An immersive three-week experience designed to enhance your expertise, transform knowledge into captivating portfolio projects, and fast-track your career in data science.</p>
                 <Link to={'/work/portfolio-workshop'} className="w-fit">
