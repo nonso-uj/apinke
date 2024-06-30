@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Barlow_black";
+    src: local("Barlow_black"), url(/fonts/BarlowCondensed-Black.ttf) format("woff");
+}
+
+@font-face {
+    font-family: "Barlow_extra";
+    src: local("Barlow_extra"), url(/fonts/BarlowCondensed-ExtraBold.ttf) format("woff");
+}
+
+@font-face {
+    font-family: "Barlow_bold";
+    src: local("Barlow_bold"), url(/fonts/BarlowCondensed-ExtraBold.ttf) format("woff");
+}
+
+@font-face {
+    font-family: "Montserrat_regular";
+    src: local("Montserrat_regular"), url(/fonts/Montserrat-VariableFont_wght.ttf) format("woff");
+}
+
+
+.font_black {
+    font-family: Barlow_black;
+}
+
+.font_extra {
+    font-family: Barlow_extra;
+}
+
+.font_bold {
+    font-family: Barlow_bold;
+}
+
+.font_regular {
+    font-family: Montserrat_regular;
+}
+  
