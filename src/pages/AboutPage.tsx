@@ -16,14 +16,14 @@ const AboutPage = () => {
         
         <div className="w-full flex flex-row items-center justify-between py-24">
           <div className="w-full flex flex-row items-center justify-center">
-            <p className="w-11/12 lg:w-2/3 text-[2.8rem] lg:text-7xl font_regular font-medium py-24 border-solid border-b border-neutral-400">Empowering Brands with Data-Driven Success</p>
+            <p className="w-11/12 lg:w-2/3 text-[2.8rem] lg:text-7xl font_regular font-medium py-16 lg:py-24 border-solid border-b border-neutral-400">Empowering Brands with Data-Driven Success</p>
           </div>
         </div>
         
         <div className="w-full h-[100vh] flex flex-row items-center justify-center py-12">
           <div className="h-full w-full lg:w-4/5 flex flex-col lg:flex-row items-center justify-center gap-y-5">
             <div className="w-full lg:w-2/5 h-[90vh] flex flex-row items-start justify-center">
-              <p className="w-11/12 text-3xl font_regular font-medium px-3">Empowering brands to achieve sustainable growth through data-driven strategies.</p>
+              <p className="w-11/12 text-3xl font_regular font-medium px-3">Enabling brands to achieve sustainable growth through data-driven strategies.</p>
             </div>
             <div className="w-full lg:w-3/5 h-[90vh] flex flex-row items-center justify-center px-0 lg:px-5">
               <img src="/images/hero.jpg" className="w-full h-full object-cover object-top" alt="" />

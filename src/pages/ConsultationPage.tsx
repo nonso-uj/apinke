@@ -2,8 +2,13 @@ import { MdOutlineArrowDownward } from "react-icons/md";
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const ConsultationPage = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
     
     let options = {
         threshold: 0.25,

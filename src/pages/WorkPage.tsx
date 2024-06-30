@@ -1,8 +1,14 @@
 import { MdOutlineArrowForward } from "react-icons/md"
 import Navbar from "../components/Navbar"
 import { Link } from "react-router-dom"
+import { useEffect } from "react"
 
 const WorkPage = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className="container-div box-border z-20  w-full overflow-hidden bg-[#e7e2dc]">
       <Navbar />

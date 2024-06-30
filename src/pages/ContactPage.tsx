@@ -4,8 +4,14 @@ import { IoMdMail } from "react-icons/io"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
+import { useEffect } from "react"
 
 const ContactPage = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className="container-div relative bg-[#e7e2dc] w-full h-fit lg:h-screen flex flex-col items-start justify-center">
       <Navbar />

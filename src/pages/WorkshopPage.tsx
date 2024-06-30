@@ -2,8 +2,14 @@ import { Link } from "react-router-dom";
 import { MdOutlineArrowDownward } from "react-icons/md";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { useEffect } from "react";
 
 const WorkshopPage = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
     let options = {
         threshold: 0.25,
       };
