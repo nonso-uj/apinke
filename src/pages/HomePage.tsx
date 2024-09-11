@@ -113,7 +113,7 @@ const HomePage = () => {
         <div className="z-20 w-full h-auto lg:h-[100vh] pt-28 lg:pt-0 flex flex-col lg:flex-row items-center justify-center gap-y-16">
           <div className="w-full lg:w-3/5">
             <div className="w-full lg:w-4/5 px-3 mx-auto">
-              <p className="text-5xl lg:text-7xl font_regular font-medium leading-[3rem] lg:leading-none">Helping You Transform Your Data Career Vision into Reality</p>
+              <p className="text-5xl lg:text-7xl font_regular font-medium leading-[3rem] lg:leading-none">Helping You Make Sense of Data, One Lesson at a Time</p>
               <Link to={'/contact'}>
                 <p className="font-medium font_regular text-base lg:text-lg uppercase mt-5 underline decoration-dotted hover:underline hover:decoration-solid">Schedule a complimentary consultation call</p>
               </Link>
