@@ -1,4 +1,4 @@
-import { FaBehance, FaInstagram, FaLocationDot, FaPaperPlane, FaPhone, FaWhatsapp, FaXTwitter, FaYoutube } from "react-icons/fa6"
+import { FaInstagram, FaPaperPlane, FaPhone, FaWhatsapp } from "react-icons/fa6"
 import Navbar from "../components/Navbar"
 import { IoMdMail } from "react-icons/io"
 import { Input } from "@/components/ui/input"
@@ -25,17 +25,17 @@ const ContactPage = () => {
                     {/* </div> */}
 
                     <div className='flex flex-col items-start justify-start gap-y-5 text-base w-full'>
-                        <div className='flex flex-row items-end justify-start gap-x-3 pr-16 '>
+                        {/* <div className='flex flex-row items-end justify-start gap-x-3 pr-16 '>
                             <FaLocationDot />
                             <p className=''>121 King Street, Melbourne, Austradvsfvfsvflia</p>
-                        </div>
+                        </div> */}
                         <div className='flex flex-row items-end justify-start gap-x-3'>
                             <FaPhone />
-                            <a href="tel:+2344567890000" className='transition-all hover:underline hover:decoration-orange-500 hover:decoration-dotted hover:underline-offset-4'>+234 456 789 0000</a>
+                            <a href="tel:+2348141636374" className='transition-all hover:underline hover:decoration-orange-500 hover:decoration-dotted hover:underline-offset-4'>+234-814-163-6374</a>
                         </div>
                         <div className='flex flex-row items-end justify-start gap-x-3'>
                             <IoMdMail />
-                            <a href="mailto:company@email.com" className='transition-all hover:underline hover:decoration-orange-500 hover:decoration-dotted hover:underline-offset-4'>company@email.com</a>
+                            <a href="mailto:foapinke@gmail.com" className='transition-all hover:underline hover:decoration-orange-500 hover:decoration-dotted hover:underline-offset-4'>foapinke@gmail.com</a>
                         </div>
                     </div>
 
@@ -43,23 +43,23 @@ const ContactPage = () => {
                         <p className='text-xl font-semibold'>Follow:</p>
 
                         <div className='flex flex-row items-end justify-start flex-nowrap gap-x-5'>
-                          <a href="#">
+                          {/* <a href="#">
                             <FaXTwitter size={30} className='hover:text-orange-500' />
-                          </a>
+                          </a> */}
 
-                          <a href="#">
+                          <a href="https://wa.me/2348141636374" target="_blank">
                             <FaWhatsapp size={30} className='hover:text-orange-500' />
                           </a>
 
-                          <a href="#">
+                          {/* <a href="#">
                             <FaBehance size={30} className='hover:text-orange-500' />
-                          </a>
+                          </a> */}
 
-                          <a href="#">
+                          {/* <a href="#">
                             <FaYoutube size={30} className='hover:text-orange-500' />
-                          </a>
+                          </a> */}
 
-                          <a href="#">
+                          <a href="https://www.instagram.com/theapinke/">
                             <FaInstagram size={30} className='hover:text-orange-500' />
                           </a>
                         </div>
@@ -85,7 +85,7 @@ const ContactPage = () => {
 
                     <div className='w-full'>
                         <div className="grid w-full gap-1.5">
-                            <Label htmlFor="message" className="text-lg font-semibold">Message *</Label>
+                            <Label htmlFor="message" className="text-lg font-semibold">How can I help you?</Label>
                             <Textarea placeholder="Type your message here." id="message" className="bg-transparent w-full border-black focus:border-orange-500 focus-visible:ring-orange-500 caret-orange-500" />
                         </div>
                     </div>
