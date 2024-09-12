@@ -127,7 +127,7 @@ const HomePage = () => {
 
         {/* ABOUT */}
         <div className="z-20 w-full h-auto lg:h-screen lg:container mx-auto flex flex-col items-center justify-center gap-y-5 my-16 lg:my-10">
-          <p className="w-11/12 lg:w-4/5 mx-auto text-3xl lg:text-5xl font-medium font_regular leading-[2.8rem] lg:leading-[4rem]">I'm Inioluwa Afolabi, a seasoned data scientist, educator, and mentor. I am passionate about deciphering data and empowering others. I teach at top institutions and mentor aspiring data professionals to kickstart and scale their careers.</p>
+          <p className="w-11/12 lg:w-4/5 mx-auto text-3xl lg:text-5xl font-medium font_regular leading-[2.8rem] lg:leading-[4rem]">I’m Inioluwa Apinke Afolabi, a data analyst, educator, and mentor, committed to helping you navigate the data-driven world. Whether you're an aspiring data analyst or a professional looking to elevate your skills, whether you're just starting out or have years of experience, I’m here to help you learn what you need at your own pace.</p>
           <div className="w-4/5">
             <Link to={'/about'} className="w-fit">
               <button className="border-solid border-2 border-black px-8 lg:px-10 py-3 rounded-full text-base font-semibold font_regular uppercase duration-200 hover:bg-black hover:text-white flex flex-row items-center gap-x-3 hover:gap-x-1">More about me <MdArrowOutward size={20} /></button>
