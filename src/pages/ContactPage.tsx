@@ -135,6 +135,7 @@ const ContactPage = () => {
                     <Input 
                       type="text" 
                       id="name" 
+                      name="name"
                       placeholder="Your name" className="w-full bg-transparent border-black focus:border-orange-500 focus-visible:ring-orange-500 caret-orange-500" 
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
@@ -152,7 +153,7 @@ const ContactPage = () => {
                     <Label htmlFor="email" className="text-lg font-semibold">Email address *</Label>
                     <Input 
                       type="email" 
-                      id="email" placeholder="Your email address" className="bg-transparent border-black focus:border-orange-500 focus-visible:ring-orange-500 caret-orange-500" 
+                      id="email" name="email" placeholder="Your email address" className="bg-transparent border-black focus:border-orange-500 focus-visible:ring-orange-500 caret-orange-500" 
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
                       value={formik.values.email}
@@ -170,7 +171,7 @@ const ContactPage = () => {
                 <Label htmlFor="subject" className="text-lg font-semibold">Subject *</Label>
                 <Input 
                   type="text" 
-                  id="subject" placeholder="Subject of message" className="bg-transparent w-full border-black focus:border-orange-500 focus-visible:ring-orange-500 caret-orange-500" 
+                  id="subject" name="subject" placeholder="Subject of message" className="bg-transparent w-full border-black focus:border-orange-500 focus-visible:ring-orange-500 caret-orange-500" 
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
                   value={formik.values.subject}
@@ -186,7 +187,7 @@ const ContactPage = () => {
                   <Label htmlFor="message" className="text-lg font-semibold">How can I help you?</Label>
                   <Textarea 
                     placeholder="Type your message here." 
-                    id="message" 
+                    id="message" name="message" 
                     className="bg-transparent w-full border-black focus:border-orange-500 focus-visible:ring-orange-500 caret-orange-500" 
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
