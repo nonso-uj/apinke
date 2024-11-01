@@ -10,8 +10,9 @@ import ContactPage from './pages/ContactPage'
 import AboutPage from './pages/AboutPage'
 import WorkPage from './pages/WorkPage'
 import PortfolioPage from './pages/PortfolioPage'
-import ConsultationPage from './pages/ConsultationPage'
-import WorkshopPage from './pages/WorkshopPage';
+import ConsultationPage from './pages/services/ConsultationPage'
+import WorkshopPage from './pages/services/WorkshopPage';
+import NotFound from './pages/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -23,15 +24,15 @@ const router = createBrowserRouter([
     element: <AboutPage />
   },
   {
-    path: '/work',
+    path: '/services',
     element: <WorkPage />
   },
   {
-    path: '/work/project-deck-consultation',
+    path: '/services/project-deck-consultation',
     element: <ConsultationPage />
   },
   {
-    path: '/work/portfolio-workshop',
+    path: '/services/portfolio-workshop',
     element: <WorkshopPage />
   },
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: '/contact',
     element: <ContactPage />
+  },
+  {
+    path: '/*',
+    element: <NotFound />
   },
 ])
 

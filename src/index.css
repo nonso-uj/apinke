@@ -3,8 +3,58 @@
 @tailwind utilities;
 
 
+.bg-primary{
+	background-color: #775647;
+}
 
+.text-primary{
+	color: #775647;
+}
 
+.bg-secondary{
+	background-color: #D3BFA8;
+}
+
+.bg-secondary-blur{
+	background-color: #d3bfa870;
+}
+
+.border-primary{
+	border-color: #775647;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scroll::-webkit-scrollbar {
+	display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.hide-scroll {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+.home-about:after {
+    content: "";
+    width: 30rem;
+    height: 30rem;
+    background: url("/images/svg/blob.svg") 0 0 no-repeat;
+    top: -10rem;
+    right: -10rem;
+    position: absolute;
+    display: inline-block;
+}
+
+.home-about:before {
+    content: "";
+    width: 30rem;
+    height: 30rem;
+    background: url("/images/svg/blob1.svg") 0 0 no-repeat;
+    bottom: -15rem;
+    left: -10rem;
+    position: absolute;
+    display: inline-block;
+}
 
 /* CARDS */
 :root{
@@ -765,3 +815,34 @@
 	  background-color: black;
 	}
   }
+
+
+.swiper{
+overflow: visible !important;
+}
+
+.swiper-pagination{
+	display: block;
+	bottom: -40px !important;
+}
+
+
+
+/* Show navigation on mobile only */
+@media (max-width: 767px) {
+  .swiper-button-prev-custom{
+	padding: 1rem;
+  }
+
+  .swiper-button-next-custom{
+	padding: 1rem;
+  }
+  
+  .swiper-pagination{
+	display: none;
+  }
+
+  .hero-section{
+	row-gap: 2rem;
+  }
+}

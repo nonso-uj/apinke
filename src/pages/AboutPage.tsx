@@ -13,39 +13,30 @@ const AboutPage = () => {
   return (
     <div className="container-div box-border z-20  w-full overflow-hidden bg-[#e7e2dc]">
         <Navbar />
-        
-        <div className="w-full flex flex-row items-center justify-between py-24">
-          <div className="w-full flex flex-row items-center justify-center">
-            <p className="w-11/12 lg:w-2/3 text-[2.8rem] lg:text-7xl font_regular font-medium py-16 lg:py-24 border-solid border-b border-neutral-400">Empowering Brands with Data-Driven Success</p>
-          </div>
-        </div>
-        
-        <div className="w-full h-[100vh] flex flex-row items-center justify-center py-12">
-          <div className="h-full w-full lg:w-4/5 flex flex-col lg:flex-row items-center justify-center gap-y-5">
-            <div className="w-full lg:w-2/5 h-[90vh] flex flex-row items-start justify-center">
-              <p className="w-11/12 text-3xl font_regular font-medium px-3">Enabling brands to achieve sustainable growth through data-driven strategies.</p>
-            </div>
-            <div className="w-full lg:w-3/5 h-[90vh] flex flex-row items-center justify-center px-0 lg:px-5">
-              <img src="/images/hero.jpg" className="w-full h-full object-cover object-top" alt="" />
-            </div>
+
+        <div className="w-full h-screen p-2 flex flex-row items-center justify-center">
+          <div className="w-full lg:w-4/5 h-4/5 overflow-hidden">
+            <img src="/images/IMG_2733aa.jpg"  className="w-full h-full object-cover object-top" alt="" />
           </div>
         </div>
 
-        <div className="w-full py-20">
-          <div className="w-11/12 lg:w-4/5 mx-auto flex flex-col items-start justify-between gap-y-4 text-lg font_regular">
-            <p>I am a seasoned data scientist on a mission to empower brands to reach their full potential. As a startup entrepreneur, I recognize the pivotal role of data-driven strategies in achieving business success. My dedication lies in guiding brands towards making informed decisions that elevate their performance and drive sustainable growth.</p>
-            <p>From risk assessment to trend forecasting and consumer behavior analysis, I specialize in harnessing historical data to develop predictive models that drive actionable insights. With a diverse portfolio spanning renowned organizations such as Grapplespace, Foursquare, House on the Rock, and the University of Lagos, I've honed my expertise across various industries.</p>
-            <p>Currently, I proudly serve as the Co-founder of EdProfile, a revolutionary data analytics-driven school management software. This innovative platform streamlines administrative workflows and enhances teaching-learning processes, revolutionizing the education sector.
-            </p>
-            <p>Beyond my professional endeavors, I am deeply committed to nurturing the next generation of data analysts. Through mentorship initiatives, I empower aspiring professionals with the skills and knowledge needed to thrive in the dynamic field of data analytics. Through my guidance, I aim to inspire the next generation of data scientists to innovate and lead in an ever-evolving digital landscape.</p>
-          </div>
-        </div>
+        <div className="px-2 lg:w-3/4 mx-auto flex flex-col items-start justify-start gap-y-5 font_regular text-lg font-medium lg:mb-32">
+          <p className="font-extrabold">Helping You Use Data to Shape Your Future</p>
 
-        {/* TESTIMONIAL */}
-        <Testimonial />
+          <p>Hi, I’m Inioluwa, an educator at heart and a data enthusiast by trade. My journey into data analytics started with one simple belief: that the power of data should be accessible to everyone, regardless of their background or skill level. And that's been my mission ever since.</p>
+
+          <p>Currently, I lead <span className="font-extrabold text-primary">Data for Next Gen Africa</span>, an initiative focused on bringing data literacy to schools nationwide. Seeing the potential of young minds grasping the power of data is one of the most fulfilling parts of my work. It's not just about teaching technical skills, it's about opening doors to opportunities in a technological future world and helping students understand the world through numbers.</p>
+          
+          <p>Beyond that, I’m also the creator of <span className="font-extrabold text-primary">SQL Query Corner</span>, a platform I built to explain SQL and make it easier for people to navigate the language of databases. I know what it’s like to feel overwhelmed by complex syntaxes, and I’m here to make that process simpler, helping people turn SQL knowledge into real, tangible projects.</p>
+          
+          <p>Whether it’s through my data analytics services or my role as a tutor, I’m not just here to show you how to use tools, I’m here to guide you through the process, step by step. Data can be intimidating, but I believe it doesn’t have to be. <span className="font-extrabold text-primary">I aim to make learning a natural part of your everyday life</span>, fitting seamlessly around your work, family, or studies. Whether you’re a student stuck on an assignment or a business owner trying to get clarity on your numbers, I’m here to help you bridge that gap.</p>
+
+          <p>I’m not just about teaching or working with tools, I’m about helping you <span className="font-extrabold text-primary">unlock the potential of data to tell your story, solve problems, and make informed decisions.</span></p>
+        </div>
+        
 
         {/* FAQS */}
-        <div className="z-20 w-full py-14 my-10">
+        <div className="z-20 w-full lg:w-5/6 mx-auto py-14 my-10">
           <div className="lg:container mx-auto">
             <p className="text-start text-5xl font_bold font-bold pl-5 lg:pl-0 mb-10">FAQS</p>
 
