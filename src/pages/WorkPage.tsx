@@ -1,4 +1,4 @@
-import { MdArrowOutward, MdOutlineArrowForward } from "react-icons/md"
+import { MdArrowOutward } from "react-icons/md"
 import Navbar from "../components/Navbar"
 import { Link } from "react-router-dom"
 import { useEffect, useRef, useState } from "react"

@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
-import Testimonial from "../components/Testimonial"
+// import Testimonial from "../components/Testimonial"
 import { FaqsAccordion } from "../components/Accordion"
 import { useEffect } from "react"
 
