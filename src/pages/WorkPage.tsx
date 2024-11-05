@@ -21,27 +21,27 @@ const WorkPage = () => {
     },
     {
         title: "Project Deck Consultation",
-        excerpt: "Getting started on a data science career journey? Let me guide you with personalized portfolio project recommendations perfectly aligned with your career trajectory.",
+        excerpt: "You’ve taken the courses, watched the videos, and learned the theories but how do you turn that knowledge into a career-worthy portfolio? If you’ve ever felt overwhelmed trying to choose the right projects or unsure about where to start, you’re not alone. This consultation is for people like you who are serious about building a successful data science career.",
         image: "/images/library.webp",
         link: "/services/project-deck-consultation",
     },
     {
         title: "Portfolio Workshop",
-        excerpt: "An immersive three-week experience designed to enhance your expertise, transform knowledge into captivating portfolio projects, and fast-track your career in data science.",
+        excerpt: "In data science, your portfolio is your proof of skill, it’s the story of what you can do. But creating a portfolio that truly represents your abilities is challenging, especially when you’re doing it alone. My <b>Portfolio Workshop</b> is designed to take you from concept to a fully realized, professionally hosted project in just three weeks.",
         image: "/images/library.webp",
-        link: "/services/project-deck-consultation",
+        link: "/services/portfolio-workshop",
     },
     {
         title: "8-Week Data Analytics Program",
-        excerpt: "Getting started on a data science career journey? Let me guide you with personalized portfolio project recommendations perfectly aligned with your career trajectory.",
+        excerpt: "You’re not just a busy professional, a parent balancing endless responsibilities, or a student with too much on your plate. You’re someone who’s ready to take charge of your future, to change your life by gaining the skills that will make you relevant in today’s data-driven world.",
         image: "/images/library.webp",
-        link: "/services/project-deck-consultation",
+        link: "/services/data-analytics-program",
     },
     {
         title: "On-Demand Data Analyst Services",
-        excerpt: "Getting started on a data science career journey? Let me guide you with personalized portfolio project recommendations perfectly aligned with your career trajectory.",
+        excerpt: "Whether you're a student struggling with a class project, a business owner seeking clearer insights from your data, or a corporate executive needing expert analysis to guide decision-making, I offer customized data solutions tailored to your specific needs.",
         image: "/images/library.webp",
-        link: "/services/project-deck-consultation",
+        link: "/services/data-analyst-services",
     },
   ];
 
@@ -65,7 +65,7 @@ const WorkPage = () => {
     <div className="container-div box-border z-20  w-full overflow-hidden bg-[#e7e2dc]">
       <Navbar />
 
-      <div className="h-screen w-full pt-20 lg:pt-16 m-0">
+      <div className="h-dvh lg:h-screen w-full pt-20 lg:pt-16 m-0">
         <motion.div layout className="w-full h-full hidden lg:flex flex-row items-stretch justify-end p-0 m-0 duration-700">
           <AnimatePresence>
             {services.map((service: any, i: any) => (

@@ -522,7 +522,7 @@
   }
   
   .intro-middot{
-	position: absolute;
+	position: relative;
 	left: 49.5vw;
 	bottom: 0rem;
 	width: 1rem;
@@ -826,7 +826,14 @@ overflow: visible !important;
 	bottom: -40px !important;
 }
 
+.analyst-list ul{
+	list-style-type: disc;
+	list-style-position: outside;
+}
 
+.analyst-list ul li::marker{
+	color: #775647;
+}
 
 /* Show navigation on mobile only */
 @media (max-width: 767px) {

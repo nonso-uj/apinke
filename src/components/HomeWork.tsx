@@ -39,6 +39,54 @@ export default function HomeWork() {
         <SwiperSlide className='!h-auto'>
           <div className="w-full h-full flex-grow flex flex-col items-start justify-between p-5 bg-white">
               <div className={`works w-full h-[30vh] bg-neutral-500 flex flex-row items-center justify-center`}>
+                  <img src={'/images/1_ZU4xzpu5Lb8xrQmcS_vQtQ.webp'} className="w-full h-full lg:h-full object-cover object-center duration-500" alt="" />
+              </div>
+
+              <div className="w-full flex flex-col items-start justify-end mt-4">
+                  <div className="w-full space-y-4">
+                      <p className="text-xl font_regular font-medium">Candy Sales & Profitability Analysis Report</p>
+                      
+                      <Link to={'https://medium.com/@THEAPINKE/sql-query-corner-candy-sales-profitability-analysis-report-ebf60a61460b'} className="h-full w-full">
+                        <p className='text-right underline underline-offset-[0.2rem] decoration-solid font-normal font_regular'>READ MORE</p>
+                      </Link>
+                  </div>
+
+                  <hr className="w-full my-4 border-solid border-b border-neutral-400" />
+
+                  <div className="w-full flex flex-row items-end justify-between font_regular text-sm font-medium">
+                      <p>MEDIUM</p>
+                      <p>2024</p>
+                  </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='!h-auto'>
+          <div className="w-full h-full flex-grow flex flex-col items-start justify-between p-5 bg-white">
+              <div className={`works w-full h-[30vh] bg-neutral-500 flex flex-row items-center justify-center`}>
+                  <img src={'/images/1_C6F92jgFSqF1qIRUzOljpQ.webp'} className="w-full h-full lg:h-full object-cover object-center duration-500" alt="" />
+              </div>
+
+              <div className="w-full flex flex-col items-start justify-end mt-4">
+                  <div className="w-full space-y-4">
+                      <p className="text-xl font_regular font-medium">Netflix Dataset Analysis Project</p>
+                      
+                      <Link to={'https://medium.com/@THEAPINKE/sql-query-corner-netflix-dataset-analysis-project-fb678a256043'} className="h-full w-full">
+                        <p className='text-right underline underline-offset-[0.2rem] decoration-solid font-normal font_regular'>READ MORE</p>
+                      </Link>
+                  </div>
+
+                  <hr className="w-full my-4 border-solid border-b border-neutral-400" />
+
+                  <div className="w-full flex flex-row items-end justify-between font_regular text-sm font-medium">
+                      <p>MEDIUM</p>
+                      <p>2024</p>
+                  </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='!h-auto'>
+          <div className="w-full h-full flex-grow flex flex-col items-start justify-between p-5 bg-white">
+              <div className={`works w-full h-[30vh] bg-neutral-500 flex flex-row items-center justify-center`}>
                   <img src={'/images/PROJECT1LONG.jpg'} className="w-full h-full lg:h-full object-cover object-center duration-500" alt="" />
               </div>
 

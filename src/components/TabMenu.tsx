@@ -17,8 +17,9 @@ const TabMenu = () => {
             </div>
             <div className="w-full h-full">
               <div className="w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-5 py-10">
-                <p className="text-4xl font_regular font-semibold">Project Deck Consultation</p>
-                <p className="text-base font_regular font-normal">Getting started on a data science career journey? Let me guide you with personalized portfolio project recommendations perfectly aligned with your career trajectory.</p>
+                <p className="text-sm lg:text-lg font_extra font-bold uppercase">Project Deck Consultation</p>
+                <p className="text-xl lg:text-3xl font_regular font-semibold">Take Control of Your Data Analytics Journey with Personalized Project Guidance</p>
+                <p className="text-base font_regular font-normal">You’ve taken the courses, watched the videos, and learned the theories but how do you turn that knowledge into a career-worthy portfolio? If you’ve ever felt overwhelmed trying to choose the right projects or unsure about where to start, you’re not alone. This consultation is for people like you who are serious about building a successful data science career.</p>
                 <Link to={'/services/project-deck-consultation'} className="w-fit">
                   <button className="border-solid border-2 border-white px-10 py-3 rounded-full text-base font-semibold font_regular uppercase duration-200 hover:bg-white hover:text-black flex flex-row items-center gap-x-3 hover:gap-x-1">Find out more <MdArrowOutward size={20} /></button>
                 </Link>
@@ -29,12 +30,13 @@ const TabMenu = () => {
         <Tabs.Item title="Portfolio Workshop">
           <div className="w-full flex flex-col lg:flex-row items-center justify-center bg-black text-white">
             <div className="w-full h-full">
-              <img src="/images/work-2.png" alt="" className="w-full h-60 lg:h-[80vh] object-cover object-center" />
+              <img src="/images/tab1.jpg" alt="" className="w-full h-60 lg:h-[80vh] object-cover object-center" />
             </div>
             <div className="w-full h-full">
               <div className="w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-5 py-10">
-                <p className="text-4xl font_regular font-semibold">PORTFOLIO WORKSHOP</p>
-                <p className="text-base font_regular font-normal">An immersive three-week experience designed to enhance your expertise, transform knowledge into captivating portfolio projects, and fast-track your career in data science.</p>
+                <p className="text-sm lg:text-lg font_extra font-bold uppercase">PORTFOLIO WORKSHOP</p>
+                <p className="text-xl lg:text-3xl font_regular font-semibold">Turn Your Data Science Skills into a Job-Winning Portfolio in Just Three Weeks</p>
+                <p className="text-base font_regular font-normal">In data science, your portfolio is your proof of skill, it’s the story of what you can do. But creating a portfolio that truly represents your abilities is challenging, especially when you’re doing it alone. My <b>Portfolio Workshop</b> is designed to take you from concept to a fully realized, professionally hosted project in just three weeks.</p>
                 <Link to={'/services/portfolio-workshop'} className="w-fit">
                   <button className="border-solid border-2 border-white px-10 py-3 rounded-full text-base font-semibold font_regular uppercase duration-200 hover:bg-white hover:text-black flex flex-row items-center gap-x-3 hover:gap-x-1">Find out more <MdArrowOutward size={20} /></button>
                 </Link>
@@ -45,13 +47,16 @@ const TabMenu = () => {
         <Tabs.Item title="8-Week Data Analytics Program">
           <div className="w-full flex flex-col lg:flex-row items-center justify-center bg-black text-white">
             <div className="w-full h-full">
-              <img src="/images/work-2.png" alt="" className="w-full h-60 lg:h-[80vh] object-cover object-center" />
+              <img src="/images/tab2.jpg" alt="" className="w-full h-60 lg:h-[80vh] object-cover object-center" />
             </div>
             <div className="w-full h-full">
               <div className="w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-5 py-10">
-                <p className="text-4xl font_regular font-semibold">PORTFOLIO WORKSHOP</p>
-                <p className="text-base font_regular font-normal">An immersive three-week experience designed to enhance your expertise, transform knowledge into captivating portfolio projects, and fast-track your career in data science.</p>
-                <Link to={'/services/portfolio-workshop'} className="w-fit">
+                <p className="text-sm lg:text-lg font_extra font-bold uppercase">8-Week Data Analytics Program</p>
+
+                <p className="text-xl lg:text-3xl font_regular font-semibold">Transform Your Future By Mastering Data Analytics, No Matter Where You Are in Life</p>
+
+                <p className="text-base font_regular font-normal">You’re not just a busy professional, a parent balancing endless responsibilities, or a student with too much on your plate. You’re someone who’s ready to take charge of your future, to change your life by gaining the skills that will make you relevant in today’s data-driven world.</p>
+                <Link to={'/services/data-analytics-program'} className="w-fit">
                   <button className="border-solid border-2 border-white px-10 py-3 rounded-full text-base font-semibold font_regular uppercase duration-200 hover:bg-white hover:text-black flex flex-row items-center gap-x-3 hover:gap-x-1">Find out more <MdArrowOutward size={20} /></button>
                 </Link>
               </div>
@@ -61,13 +66,14 @@ const TabMenu = () => {
         <Tabs.Item title="On-Demand Data Analyst Services">
           <div className="w-full flex flex-col lg:flex-row items-center justify-center bg-black text-white">
             <div className="w-full h-full">
-              <img src="/images/work-2.png" alt="" className="w-full h-60 lg:h-[80vh] object-cover object-center" />
+              <img src="/images/tab3.jpg" alt="" className="w-full h-60 lg:h-[80vh] object-cover object-top" />
             </div>
             <div className="w-full h-full">
               <div className="w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-5 py-10">
-                <p className="text-4xl font_regular font-semibold">PORTFOLIO WORKSHOP</p>
-                <p className="text-base font_regular font-normal">An immersive three-week experience designed to enhance your expertise, transform knowledge into captivating portfolio projects, and fast-track your career in data science.</p>
-                <Link to={'/services/portfolio-workshop'} className="w-fit">
+                <p className="text-sm lg:text-lg font_extra font-bold uppercase">On-Demand Data Analyst Services</p>
+                <p className="text-xl lg:text-3xl font_regular font-semibold">Get Expert Data Analysis for Any Challenge-Academic, Professional, or Business</p>
+                <p className="text-base font_regular font-normal">Whether you're a student struggling with a class project, a business owner seeking clearer insights from your data, or a corporate executive needing expert analysis to guide decision-making, I offer customized data solutions tailored to your specific needs.</p>
+                <Link to={'/services/data-analyst-services'} className="w-fit">
                   <button className="border-solid border-2 border-white px-10 py-3 rounded-full text-base font-semibold font_regular uppercase duration-200 hover:bg-white hover:text-black flex flex-row items-center gap-x-3 hover:gap-x-1">Find out more <MdArrowOutward size={20} /></button>
                 </Link>
               </div>

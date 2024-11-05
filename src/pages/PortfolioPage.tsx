@@ -7,15 +7,31 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const PortfolioPage = () => {
 
     useEffect(() => {
-        // window.scrollTo(0, 0)
+        window.scrollTo(0, 0)
     }, [])
   
     const projects = [
         {
+            title: "Candy Sales & Profitability Analysis Report",
+            category: "MEDIUM",
+            year: "2024",
+            bg: "bg-[#A6AEBF]",
+            image: "/images/1_ZU4xzpu5Lb8xrQmcS_vQtQ.webp",
+            link: "https://medium.com/@THEAPINKE/sql-query-corner-candy-sales-profitability-analysis-report-ebf60a61460b",
+        },
+        {
+            title: "Netflix Dataset Analysis Project",
+            category: "MEDIUM",
+            year: "2024",
+            bg: "bg-[#D0E8C5]",
+            image: "/images/1_C6F92jgFSqF1qIRUzOljpQ.webp",
+            link: "https://medium.com/@THEAPINKE/sql-query-corner-netflix-dataset-analysis-project-fb678a256043",
+        },
+        {
             title: "Was barbie really that good?",
             category: "MEDIUM",
             year: "2023",
-            bg: "bg-[#D5E4C3]",
+            bg: "bg-[#C4DAD2]",
             image: "/images/PROJECT1LONG.jpg",
             link: "https://medium.com/@THEAPINKE/was-barbie-really-that-good-45d58ffb417c",
         },
@@ -23,7 +39,7 @@ const PortfolioPage = () => {
             title: "Using sql to analyze the goodreads dataset",
             category: "MEDIUM",
             year: "2023",
-            bg: "bg-[#E7CBA9]",
+            bg: "bg-[#A6AEBF]",
             image: "/images/library.webp",
             link: "https://medium.com/@THEAPINKE/using-sql-to-analyze-the-books-dataset-13fffc3d3939",
         },
@@ -31,7 +47,7 @@ const PortfolioPage = () => {
             title: "HR analytics project with power bi",
             category: "MEDIUM",
             year: "2023",
-            bg: "bg-[#EEBAB2]",
+            bg: "bg-[#C5D3E8]",
             image: "/images/PROJECT3.webp",
             link: "https://medium.com/@THEAPINKE/hr-analytics-project-with-power-bi-67e73869a63e",
         },

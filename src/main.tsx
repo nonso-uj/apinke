@@ -13,6 +13,8 @@ import PortfolioPage from './pages/PortfolioPage'
 import ConsultationPage from './pages/services/ConsultationPage'
 import WorkshopPage from './pages/services/WorkshopPage';
 import NotFound from './pages/NotFound';
+import AnalystServices from './pages/services/AnalystServices';
+import AnalyticsProgram from './pages/services/AnalyticsProgram';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
   {
     path: '/services/portfolio-workshop',
     element: <WorkshopPage />
+  },
+  {
+    path: '/services/data-analytics-program',
+    element: <AnalyticsProgram />
+  },
+  {
+    path: '/services/data-analyst-services',
+    element: <AnalystServices />
   },
   {
     path: '/portfolio',

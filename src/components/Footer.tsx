@@ -34,9 +34,9 @@ const Footer = () => {
                         <Link to={'mailto:foapinke@gmail.com'} target="_blank">
                             <button className="border-solid border border-black px-5 py-2 rounded-3xl duration-500 hover:bg-black hover:text-white">E-MAIL</button>
                         </Link>
-                        <Link to={''} target="_blank">
+                        {/* <Link to={''} target="_blank">
                         <button className="border-solid border border-black px-5 py-2 rounded-3xl duration-500 hover:bg-black hover:text-white">LINKEDIN</button>
-                        </Link>
+                        </Link> */}
                         <Link to={'https://medium.com/@THEAPINKE'} target="_blank">
                         <button className="border-solid border border-black px-5 py-2 rounded-3xl duration-500 hover:bg-black hover:text-white">MEDIUM</button>
                         </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
 
                 <div className="z-20 w-full flex flex-col lg:flex-row items-center lg:items-end justify-between gap-y-3">
                 <p>2024 AFOLABI APINKE INIOLUWA</p>
-                <p><a href="https://github.com/nonso-uj">MADE BY NONSO;)</a></p>
+                <p><a href="https://github.com/nonso-uj" target="_blank">MADE BY NONSO;)</a></p>
                 </div>
             </div>
         </div>
