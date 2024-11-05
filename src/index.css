@@ -835,6 +835,31 @@ overflow: visible !important;
 	color: #775647;
 }
 
+.tiny-scroll {
+	overflow-x: scroll; /* or overflow: auto */
+	scrollbar-gutter: stable;
+  }
+  
+  .tiny-scroll::-webkit-scrollbar {
+	width: 5px; /* Set width for vertical scroll */
+	height: 5px; /* Set height for horizontal scroll */
+  }
+  
+  .tiny-scroll::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.3); /* Set color and transparency */
+	border-radius: 10px; /* Round the corners */
+  }
+  
+  .tiny-scroll::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.1); /* Track background color */
+  }
+  
+  /* For Firefox */
+  .tiny-scroll {
+	scrollbar-width: thin; /* Makes the scrollbar thin */
+	scrollbar-color: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.1); /* thumb color / track color */
+  }
+
 /* Show navigation on mobile only */
 @media (max-width: 767px) {
   .swiper-button-prev-custom{

@@ -27,7 +27,7 @@ const WorkPage = () => {
     },
     {
         title: "Portfolio Workshop",
-        excerpt: "In data science, your portfolio is your proof of skill, it’s the story of what you can do. But creating a portfolio that truly represents your abilities is challenging, especially when you’re doing it alone. My <b>Portfolio Workshop</b> is designed to take you from concept to a fully realized, professionally hosted project in just three weeks.",
+        excerpt: "In data science, your portfolio is your proof of skill, it’s the story of what you can do. But creating a portfolio that truly represents your abilities is challenging, especially when you’re doing it alone. My Portfolio Workshop is designed to take you from concept to a fully realized, professionally hosted project in just three weeks.",
         image: "/images/library.webp",
         link: "/services/portfolio-workshop",
     },
