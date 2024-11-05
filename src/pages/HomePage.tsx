@@ -52,7 +52,7 @@ const customTheme: CustomFlowbiteTheme = {
         "fullWidth": "grid w-full grid-flow-col divide-x divide-gray-200 rounded-none text-sm font-medium shadow dark:divide-gray-700 dark:text-gray-400"
       },
       "tabitem": {
-        "base": "w-fit lg:w-auto flex items-center justify-center rounded-t-lg p-3 lg:p-4 text-[1rem] lg:text-lg font_regular font-semibold first:ml-0 focus:outline-none focus:ring-2 focus:ring-orange-300 disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
+        "base": "w-fit lg:w-auto flex items-center justify-center rounded-t-lg p-3 lg:p-4 text-[1rem] lg:text-lg font_regular font-semibold first:ml-0 focus:outline-none focus:ring-2 focus:ring-[#775647] disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
         "styles": {
           "default": {
             "base": "rounded-t-lg",
@@ -71,7 +71,7 @@ const customTheme: CustomFlowbiteTheme = {
           "pills": {
             "base": "text-nowrap",
             "active": {
-              "on": "rounded-lg bg-orange-100 text-black",
+              "on": "rounded-lg bg-[#D3BFA8] text-black",
               "off": "rounded-lg hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-800 dark:hover:text-white"
             }
           },
