@@ -48,7 +48,7 @@ const customTheme: CustomFlowbiteTheme = {
       "styles": {
         "default": "flex-wrap border-b border-gray-200 dark:border-gray-700",
         "underline": "-mb-px flex-wrap border-b border-gray-200 dark:border-gray-700",
-        "pills": "tiny-scroll h-fit p-2 overflow-x-scroll space-x-2 text-sm font-medium text-gray-500 dark:text-gray-400",
+        "pills": "tiny-scroll h-fit p-2 overflow-x-scroll lg:overflow-hidden space-x-2 text-sm font-medium text-gray-500 dark:text-gray-400",
         "fullWidth": "grid w-full grid-flow-col divide-x divide-gray-200 rounded-none text-sm font-medium shadow dark:divide-gray-700 dark:text-gray-400"
       },
       "tabitem": {
