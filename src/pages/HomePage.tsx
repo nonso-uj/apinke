@@ -107,11 +107,42 @@ const HomePage = () => {
   
   return (
     <Flowbite theme={{ theme: customTheme }}>
-      <div className="container-div box-border z-20  w-full overflow-hidden bg-[#e7e2dc]">
+      <div className="container-div box-border z-20  w-full overflow-hidden bg-[#e7e2dc] pt-20 lg:pt-0">
         <Navbar />
         
         {/* HERO */}
-        <div className="z-20 w-full lg:w-4/5 h-auto lg:h-[100vh] pt-28 lg:pt-40 lg:pb-5 px-3 lg:px-0 mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-center gap-y-16 gap-x-5">
+        <div className="w-screen h-fit lg:h-svh">
+          <div className="relative w-full lg:w-[95%] h-full mx-auto px-3 lg:px-10 flex flex-col lg:flex-row items-center justify-center gap-x-10 gap-y-10">
+            <div className="h-full w-full lg:w-1/2 mx-auto flex flex-col items-start justify-center gap-y-2 z-10 pt-10 lg:pt-0">
+              <p className="text-3xl lg:text-6xl font-normal font_bold leading-[115%] ">Hi I'm Apinke Afolabi - a <span className="inline-block h-fit w-fit p-[2px] rounded-md border-2 border-solid bg-[#9cbbff] text-nowrap h-fit">Data Analyst,</span> Educator and Advocate for <span className="inline-block h-fit w-fit p-[2px] rounded-md border-2 border-solid bg-[#bb77fe] text-nowrap h-fit">Data Literacy</span> in Africa.</p>
+
+              <div>
+                <span className="text-xs lg:text-sm font_regular font-light">
+                  <p>I believe everyone benefits from understanding data, as it’s the language behind the decisions that shape our world.</p>
+
+                  <p>As a data analyst and educator, I work to help individuals and organizations make sense of their data, turning complex information into insights that drive real impact. My mission goes beyond analysis; through initiatives like Data for Next Gen Africa and SQL Query Corner, I’m dedicated to equipping young minds across Africa with essential data skills, empowering them to thrive in an increasingly data-driven world.</p>
+
+                  <p>Whether you’re a professional, student, or simply curious, I’ll help you develop a data-driven mindset, building skills and confidence to help you see data as your most powerful tool.</p>
+                </span>
+                
+                <Link to={'/contact'}>
+                  <p className="text-primary font-medium font_regular text-base lg:text-lg uppercase mt-5 underline decoration-dotted hover:underline hover:decoration-solid">Schedule a complimentary consultation call</p>
+                </Link>
+              </div>
+
+            </div>
+
+            <div className="relative h-full w-full lg:w-1/2 mx-auto flex flex-row items-center justify-center z-10">
+              <img src="/images/work-2.jpg" className="hidden lg:block top-0 left-0 h-3/4 w-full lg:w-3/4 object-cover object-center lg:rounded-3xl" alt="" />
+
+              <img src="/images/work-2.jpg" className="lg:hidden home-about relative top-0 left-0 h-full w-full lg:w-4/5 object-cover object-top rounded-xl" alt="" />
+            </div>
+
+            <img className="absolute right-0 lg:-right-16 bottom-16 lg:-bottom-24 w-[100%] lg:w-[70%] scale-[2] lg:scale-100" src="/images/svg/ir-bg.svg" alt="" />
+          </div>
+        </div>
+
+        {/* <div className="z-20 w-full lg:w-4/5 h-auto lg:h-[100vh] pt-28 lg:pt-40 lg:pb-5 px-3 lg:px-0 mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-center gap-y-16 gap-x-5">
           <div className="w-full lg:w-2/5 order-2 lg:order-1">
             <div className="w-full px-3 lg:pt-10 mx-auto">
               <p className="w-full text-5xl lg:text-[3.8rem] font_black font-medium leading-[3rem] lg:leading-[4rem]">Helping You Make Sense of Data, One Lesson at a Time</p>
@@ -127,7 +158,7 @@ const HomePage = () => {
 
             <img src="/images/work-2.jpg" className="lg:hidden home-about relative top-0 left-0 h-full w-full lg:w-4/5 object-cover object-top rounded-xl" alt="" />
           </div>
-        </div>
+        </div> */}
 
 
 
