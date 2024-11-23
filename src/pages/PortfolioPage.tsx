@@ -82,7 +82,7 @@ return (
 
                         <p className="font_black text-3xl lg:text-4xl font-bold">{work.title}</p>
                         
-                        <Link to={work.link} className="inline-block h-full w-fit">
+                        <Link to={work.link} target="_blank" className="inline-block h-full w-fit">
                             <p className="w-full font_regular text-base font-regular uppercase flex flex-row justify-start items-center gap-x-5 duration-500 hover:text-lg hover:gap-x-8">Go there <FaArrowRightLong size={25} /></p>
                         </Link>
                     </div>

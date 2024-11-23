@@ -7,7 +7,7 @@ import { useEffect } from "react"
 const AboutPage = () => {
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    // window.scrollTo(0, 0)
   }, [])
 
   return (
@@ -21,17 +21,19 @@ const AboutPage = () => {
         </div>
 
         <div className="px-2 lg:w-3/4 mx-auto flex flex-col items-start justify-start gap-y-5 font_regular text-lg font-medium lg:mb-32">
-          <p className="font-extrabold">Helping You Use Data to Shape Your Future</p>
+          <p className="font-extrabold font_extra text-base lg:text-2xl">Helping You Use Data to Shape Your Future</p>
 
-          <p>Hi, I’m Inioluwa, an educator at heart and a data enthusiast by trade. My journey into data analytics started with one simple belief: that the power of data should be accessible to everyone, regardless of their background or skill level. And that's been my mission ever since.</p>
+          <p>Hi, I’m Inioluwa Apinke Afolabi, an educator and data professional.</p>
 
-          <p>Currently, I lead <span className="font-extrabold text-primary">Data for Next Gen Africa</span>, an initiative focused on bringing data literacy to schools nationwide. Seeing the potential of young minds grasping the power of data is one of the most fulfilling parts of my work. It's not just about teaching technical skills, it's about opening doors to opportunities in a technological future world and helping students understand the world through numbers.</p>
+          <p>My journey into data has led me to one undeniable truth: data has the power to unlock opportunities for everyone, regardless of their background or experience. That belief is at the heart of everything I do.</p>
           
-          <p>Beyond that, I’m also the creator of <span className="font-extrabold text-primary">SQL Query Corner</span>, a platform I built to explain SQL and make it easier for people to navigate the language of databases. I know what it’s like to feel overwhelmed by complex syntaxes, and I’m here to make that process simpler, helping people turn SQL knowledge into real, tangible projects.</p>
+          <p>As the founder of Data for Next Gen Africa, I work to bring data literacy to schools across the country. My mission goes beyond teaching technical skills; it’s about helping young people see data as a tool for understanding the world and unlocking opportunities in a tech-driven future.</p>
           
-          <p>Whether it’s through my data analytics services or my role as a tutor, I’m not just here to show you how to use tools, I’m here to guide you through the process, step by step. Data can be intimidating, but I believe it doesn’t have to be. <span className="font-extrabold text-primary">I aim to make learning a natural part of your everyday life</span>, fitting seamlessly around your work, family, or studies. Whether you’re a student stuck on an assignment or a business owner trying to get clarity on your numbers, I’m here to help you bridge that gap.</p>
+          <p>I’m also the creator of SQL Query Corner, a platform designed to simplify SQL and make navigating databases accessible to everyone. I know how overwhelming complex syntax can feel, which is why I focus on transforming confusion into clarity through hands-on, real-world projects.</p>
 
-          <p>I’m not just about teaching or working with tools, I’m about helping you <span className="font-extrabold text-primary">unlock the potential of data to tell your story, solve problems, and make informed decisions.</span></p>
+          <p>Whether I’m guiding students through challenging assignments or helping business owners make data-driven decisions, my approach is always hands-on and personalized. I don’t just teach you how to use tools, I walk with you every step of the way, ensuring learning is seamless, practical, and tailored to your goals.</p>
+
+          <p>My mission is simple: to empower you to use data to solve problems, make informed decisions, and tell your unique story.</p>
         </div>
         
 

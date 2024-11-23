@@ -313,13 +313,9 @@
 	z-index: 3;
 }
 .client-info a {
-	width: 40px;
-	height: 40px;
-	border-radius: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
 	font-size: 22px;
 }
 .client-info {
@@ -349,14 +345,16 @@
   }
 
   100% {
-    transform: translateX(-75%);
+    transform: translateX(-95%);
   }
 }
 
-.testimonial-slides {
-  animation: slides 30s linear 0s infinite normal;
-}
 
+@media (max-width: 767px) {
+	.testimonial-slides {
+	animation: slides 20s linear 0s infinite normal;
+	}
+}
 
 
 /* FOOTER */
@@ -875,6 +873,10 @@ overflow: visible !important;
   
   .swiper-pagination{
 	display: none;
+  }
+
+  .show-dots .swiper-pagination{
+	display: block;
   }
 
   .hero-section{

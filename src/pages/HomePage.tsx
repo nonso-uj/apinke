@@ -8,6 +8,7 @@ import Footer from "../components/Footer"
 // import Testimonial from "../components/Testimonial"
 import { useEffect } from "react"
 import HomeWork from "@/components/HomeWork"
+import Testimonial from "@/components/Testimonial"
 
 const customTheme: CustomFlowbiteTheme = {
   accordion: {
@@ -52,7 +53,7 @@ const customTheme: CustomFlowbiteTheme = {
         "fullWidth": "grid w-full grid-flow-col divide-x divide-gray-200 rounded-none text-sm font-medium shadow dark:divide-gray-700 dark:text-gray-400"
       },
       "tabitem": {
-        "base": "w-fit lg:w-auto flex items-center justify-center rounded-t-lg p-3 lg:p-4 text-[1rem] lg:text-lg font_regular font-semibold first:ml-0 focus:outline-none focus:ring-2 focus:ring-[#775647] disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
+        "base": "w-fit lg:w-auto flex items-center justify-center flex-nowrap rounded-t-lg p-3 lg:p-4 text-[1rem] lg:text-lg font_regular font-semibold first:ml-0 focus:outline-none focus:ring-2 focus:ring-[#775647] disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
         "styles": {
           "default": {
             "base": "rounded-t-lg",
@@ -102,7 +103,7 @@ const customTheme: CustomFlowbiteTheme = {
 const HomePage = () => {
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    // window.scrollTo(0, 0)
   }, [])
   
   return (
@@ -122,11 +123,11 @@ const HomePage = () => {
 
                   <p>As a data analyst and educator, I work to help individuals and organizations make sense of their data, turning complex information into insights that drive real impact. My mission goes beyond analysis; through initiatives like Data for Next Gen Africa and SQL Query Corner, I’m dedicated to equipping young minds across Africa with essential data skills, empowering them to thrive in an increasingly data-driven world.</p>
 
-                  <p>Whether you’re a professional, student, or simply curious, I’ll help you develop a data-driven mindset, building skills and confidence to help you see data as your most powerful tool.</p>
+                  <p>Whether you’re a professional, student, or simply curious, I’ll help you develop a data-driven mindset, building skills and confidence to help you see data as your most powerful tool.</p>
                 </span>
                 
                 <Link to={'/contact'}>
-                  <p className="text-primary font-medium font_regular text-base lg:text-lg uppercase mt-5 underline decoration-dotted hover:underline hover:decoration-solid">Schedule a complimentary consultation call</p>
+                  <p className="text-primary font-bold font_regular text-base lg:text-xl uppercase mt-5 underline decoration-dotted hover:underline hover:decoration-solid underline-offset-4">Let's talk....</p>
                 </Link>
               </div>
 
@@ -142,46 +143,64 @@ const HomePage = () => {
           </div>
         </div>
 
-        {/* <div className="z-20 w-full lg:w-4/5 h-auto lg:h-[100vh] pt-28 lg:pt-40 lg:pb-5 px-3 lg:px-0 mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-center gap-y-16 gap-x-5">
-          <div className="w-full lg:w-2/5 order-2 lg:order-1">
-            <div className="w-full px-3 lg:pt-10 mx-auto">
-              <p className="w-full text-5xl lg:text-[3.8rem] font_black font-medium leading-[3rem] lg:leading-[4rem]">Helping You Make Sense of Data, One Lesson at a Time</p>
-              <Link to={'/contact'}>
-                <p className="text-primary font-medium font_regular text-base lg:text-lg uppercase mt-5 underline decoration-dotted hover:underline hover:decoration-solid">Schedule a complimentary consultation call</p>
-              </Link>
-            </div>
-          </div>
-
-          <div className="relative h-full w-full lg:w-3/5 py-3 order-1 lg:order-2">
-            <img className="hidden lg:block w-64 lg:w-auto" src="/images/svg/ir-bg.svg" alt="" />
-            <img src="/images/work-2.jpg" className="hidden lg:block absolute top-0 left-0 h-full w-full lg:w-4/5 object-cover lg:rounded-3xl" style={{ objectPosition: "0px -4rem" }} alt="" />
-
-            <img src="/images/work-2.jpg" className="lg:hidden home-about relative top-0 left-0 h-full w-full lg:w-4/5 object-cover object-top rounded-xl" alt="" />
-          </div>
-        </div> */}
-
-
+        
 
         {/* ABOUT */}
-        <div className="w-full lg:w-4/5 lg:h-[100vh] mx-auto mt-32 flex flex-col items-center justify-center gap-y-20">
+        <div className="w-full lg:w-4/5 h-auto mx-auto mt-32 flex flex-col items-center justify-center gap-y-20">
           <div className="w-full">
-            <p className="font_black font-bold text-4xl lg:text-4xl text-center">A bit about me...</p>
+            <p className="font_black font-bold text-4xl lg:text-4xl text-center">The Impact I'm Creating and Why It Matters</p>
           </div>
 
-          <div className="home-about relative w-full px-3 lg:px-0 grid grid-cols-1 lg:grid-cols-3 grid-row-3 lg:grid-row-1 gap-x-5 gap-y-5 font-light font_regular">
+          <div className="home-about relative w-full px-3 lg:px-0 flex flex-col justify-start items-center gap-y-10">
 
-            <div className="flex items-center py-14 px-12 bg-white text-center z-10">
-              <p>I’m Inioluwa Apinke Afolabi, a data analyst, educator, and mentor, committed to helping you navigate the data-driven world.</p>
+            <div className="w-full flex flex-col lg:flex-row items-center justify-start lg:justify-between gap-y-5 gap-x-5 py-5 lg:py-14 px-4 lg:px-12 bg-white z-10">
+              <div className="order-2 lg:order-1 w-full lg:w-2/3 flex flex-col justify-start items-start gap-y-5">
+                <p className="self-center lg:self-start font-semibold text-2xl font_bold">Data for Next-Gen Africa</p>
+
+                <p className="font-light font_regular text-sm lg:text-base">I had free time on my hands, and like many people, I wanted to do something meaningful with it. I started asking myself, ‘How can I give back?’ I knew I wanted to use my skills—not just as a data analyst, but also with my background in education—to make a real impact. So, I began looking for opportunities to volunteer or contribute to causes that centered around data literacy. But when I couldn't find any data-focused volunteer opportunities in Lagos, I was moved to take action and create my own. That’s how Data for Next-Gen Africa was born. What we’re really doing is empowering secondary school students with the data skills they need to succeed in a world increasingly shaped by data, no matter what career path they choose.</p>
+
+                <a href="https://data4nextgenafrica.my.canva.site/" target="_blank" className="inline self-center">
+                  <button className="bg-black text-white font-bold font_regular uppercase text-sm px-5 py-3 flex flex-row items-center gap-x-3 hover:gap-x-1">check it out <MdArrowOutward size={20} /></button>
+                </a>
+              </div>
+
+              <div className="order-1 lg:order-2 w-full lg:w-1/3 h-full">
+                <img src="/images/impact3.png" className="w-full h-auto object-cover object-center" alt="" />
+              </div>
             </div>
 
-            <div className="flex items-center py-14 px-12 bg-white text-center z-10">
-              <p>Whether you're an aspiring data analyst or a professional looking to elevate your skills, whether you're just starting out or have years of experience.</p>
-            </div>
+            <div className="w-full flex flex-col lg:flex-row items-center justify-start lg:justify-between gap-y-5 gap-x-5 py-5 lg:py-14 px-4 lg:px-12 bg-white z-10">
+              <div className="w-full lg:w-1/3 h-full">
+                <img src="/images/impact1.png" className="w-full h-auto object-cover object-center" alt="" />
+              </div>
 
-            <div className="flex items-center py-14 px-12 bg-white text-center z-10">
-              <p>I’m here to help you learn what you need at your own pace.</p>
+              <div className="w-full lg:w-2/3 flex flex-col justify-start items-start gap-y-5">
+                <p className="self-center lg:self-end font-semibold text-2xl font_bold">SQL Query Corner</p>
+
+                <p className="font-light font_regular text-sm lg:text-base">When I was learning SQL, I found it difficult to find projects that really helped me connect the dots between what I was learning and how to apply it in the real world. This challenge led me to create SQL Query Corner—a platform where beginners can practice real-world projects and see how SQL syntaxes are used in actual analysis. The goal is to bridge the gap between theory and practice, providing hands-on experience that prepares learners for the kind of work they’ll encounter in the field. SQL Query Corner is for anyone ready to take their SQL skills to the next level and start building meaningful, job-ready projects" should replace "Whether you're an aspiring data analyst or a professional looking to elevate your skills, whether you're just starting out or have years of experience.</p>
+
+                <a href="https://the-apinke.github.io/SQL-QUERY-CORNER/?fbclid=PAZXh0bgNhZW0CMTEAAaZ5WYbez8sOvB27VltsBhqXDUIin9fWoo1eA3k38ayT3n3kaAsFrFRLJeM_aem_f3MYWDFdSGxi7oU6N6JPAw" target="_blank" className="inline self-center">
+                  <button className="bg-black text-white font-bold font_regular uppercase text-sm px-5 py-3 flex flex-row items-center gap-x-3 hover:gap-x-1">check it out <MdArrowOutward size={20} /></button>
+                </a>
+              </div>
             </div>
             
+            <div className="w-full flex flex-col lg:flex-row items-center justify-start lg:justify-between gap-y-5 gap-x-5 py-5 lg:py-14 px-4 lg:px-12 bg-white z-10">
+              <div className="order-2 lg:order-1 w-full lg:w-2/3 flex flex-col justify-start items-start gap-y-5 mb-5 lg:mb-0">
+                <p className="text-center self-center lg:text-start lg:self-start font-semibold text-2xl font_bold">Data Skills & Portfolio Workshops</p>
+
+                <p className="font-light font_regular text-sm lg:text-base">When I started learning data analytics, I struggled to find personalized support. I spent countless hours sifting through tutorials, feeling stuck, and wishing I had someone to help me understand where I was going wrong. The frustration of not having a mentor to guide me through each step made the journey longer and harder than it had to be. That’s why I now offer personalized data workshops. With my hands-on approach, I guide you through each workshop, ensuring you gain the necessary skills to succeed. You won’t feel lost. Together, we’ll identify the perfect data role for you, equip you with the skill sets required for that role, and build a portfolio that showcases your abilities to land the job. My workshops are designed to train you for real-world data roles and help you get hired, setting you up for a successful career in data.</p>
+
+                {/* <a href="https://data4nextgenafrica.my.canva.site/" className="inline self-center">
+                  <button className="bg-black text-white font-bold font_regular uppercase text-sm px-5 py-3 flex flex-row items-center gap-x-3 hover:gap-x-1">check it out <MdArrowOutward size={20} /></button>
+                </a> */}
+              </div>
+
+              <div className="order-1 lg:order-2 w-full lg:w-1/3 h-full">
+                <img src="/images/impact2.png" className="w-full h-auto object-cover object-center" alt="" />
+              </div>
+            </div>
+
           </div>
 
           <div className="w-4/5 z-10">
@@ -221,7 +240,7 @@ const HomePage = () => {
 
 
         {/* TESTIMONIAL */}
-        {/* <Testimonial /> */}
+        <Testimonial />
 
 
 

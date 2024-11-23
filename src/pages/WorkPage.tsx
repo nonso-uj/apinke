@@ -19,15 +19,15 @@ const WorkPage = () => {
         image: "",
         link: "#",
     },
-    {
-        title: "Project Deck Consultation",
-        excerpt: "You’ve taken the courses, watched the videos, and learned the theories but how do you turn that knowledge into a career-worthy portfolio? If you’ve ever felt overwhelmed trying to choose the right projects or unsure about where to start, you’re not alone. This consultation is for people like you who are serious about building a successful data science career.",
-        image: "/images/library.webp",
-        link: "/services/project-deck-consultation",
-    },
+    // {
+    //     title: "Project Deck Consultation",
+    //     excerpt: "You’ve taken the courses, watched the videos, and learned the theories but how do you turn that knowledge into a career-worthy portfolio? If you’ve ever felt overwhelmed trying to choose the right projects or unsure about where to start, you’re not alone. This consultation is for people like you who are serious about building a successful data science career.",
+    //     image: "/images/library.webp",
+    //     link: "/services/project-deck-consultation",
+    // },
     {
         title: "Portfolio Workshop",
-        excerpt: "In data science, your portfolio is your proof of skill, it’s the story of what you can do. But creating a portfolio that truly represents your abilities is challenging, especially when you’re doing it alone. My Portfolio Workshop is designed to take you from concept to a fully realized, professionally hosted project in just three weeks.",
+        excerpt: "You’ve taken the courses, watched the videos, and learned the theories but how do you turn that knowledge into a career-worthy portfolio? If you’ve ever felt overwhelmed trying to choose the right projects or unsure about where to start, you’re not alone. This consultation is for people like you who are serious about building a successful data science career.",
         image: "/images/library.webp",
         link: "/services/portfolio-workshop",
     },
