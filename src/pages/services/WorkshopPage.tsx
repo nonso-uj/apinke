@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import { useEffect } from "react";
+import { MdArrowOutward } from "react-icons/md";
 
 const WorkshopPage = () => {
 
@@ -105,7 +106,36 @@ const WorkshopPage = () => {
           </div>
         </div>
 
-        <hr className="w-4/5 mx-auto border lg:border-2 border-black my-28" />
+        <hr className="w-4/5 mx-auto border lg:border-2 border-black my-16 lg:my-28" />
+
+        <div className="w-full px-5 lg:px-10 flex flex-col lg:flex-row items-center justify-center">
+          <div className="order-1 lg:order-3 w-full lg:w-2/5">
+            <img src="/images/impact3.png" className="w-full h-auto object-cover object-center" alt="" />
+          </div>
+
+          <div className="order-2 hidden lg:block h-[450px] border-r border-black border-solid mx-8"></div>
+
+          <div className="order-3 lg:order-1 w-full lg:w-3/5 space-y-5">
+            <p className="font-bold font_extra text-2xl">Curious about the impact of this workshop?</p>
+
+            <p className="font_regular text-xl lg:text-4xl font-regular leading-tight">Take a look at some portfolios crafted by students I’ve worked with. These projects reflect the skills and confidence they gained through our sessions. <br /><br />Check below to explore their work</p>
+            
+            <ul className="list-disc list-outside ml-5 lg:ml-16 space-y-5">
+              <li>
+                <a href="https://nwa-ivans.github.io/Nwadiogbuivans.github.io/" className="inline-block w-fit">
+                  <p className="w-fit flex flex-row justify-start items-center gap-x-5 uppercase font-semibold font_regular text-xl underline decoration-dotted hover:underline hover:decoration-solid underline-offset-4">Somtoochukwu Nwadiogbu <MdArrowOutward size={20} className="shrink-0 inline" /></p>
+                </a>
+              </li>
+              <li>
+                <a href="https://cleoladiva1234.github.io/CleoMetrics.github.io/" className="inline-block w-fit">
+                  <p className="w-fit flex flex-row justify-start items-center gap-x-5 uppercase font-semibold font_regular text-xl underline decoration-dotted hover:underline hover:decoration-solid underline-offset-4">Cleopatra <MdArrowOutward size={20} className="shrink-0 inline" /></p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr className="w-4/5 mx-auto border lg:border-2 border-black my-16 lg:my-28" />
       
         <div className="w-full h-[60vh] lg:h-[50vh]">
             <div className="w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-3 font_regular">

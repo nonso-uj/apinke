@@ -9,13 +9,13 @@ const Testimonial = () => {
 
   const testimonials = [
     {
-      text: "I’m so proud of Somtoochukwu Nwadiogbu and what they’ve accomplished! After learning with me, they took everything we covered and applied it with such dedication. They didn’t just stop at understanding the concepts—they went the extra mile to build an impressive portfolio from scratch, showcasing their skills and creativity. Watching their growth and seeing them put their knowledge into action has been truly inspiring. This is exactly why I do what I do!",
+      text: "Learning with Inioluwa was a transformative experience. Her teaching style made everything so much easier to understand and her patience and encouragement stood out. Whether online or offline, the sessions were well-structured, focused, and tailored to help me improve. I always felt supported as we tackled challenges together, knowing we’d pull through. Thanks to Ini’s guidance, I’ve gained not only valuable skills but also confidence in my abilities.",
       name: 'Somtoochukwu Nwadiogbu',
       link: 'https://nwa-ivans.github.io/Nwadiogbuivans.github.io/'
     },
     {
-      text: "I couldn’t be more proud of Cleopatra Okonkwo! After our lessons together, they took what they learned and turned it into something incredible—a complete portfolio that showcases their hard work and talent. It’s amazing to see how they applied their knowledge so effectively and brought their ideas to life. Seeing their growth and dedication is a reminder of why I’m so passionate about teaching. Well done, Cleopatra!",
-      name: 'Cleopatra Okonkwo',
+      text: "I couldn’t be more proud of Cleopatra. After our lessons, she took everything she learned and turned it into something incredible. Her portfolio is a testament to her hard work, talent, and ability to apply knowledge to real-world projects. Seeing her growth is exactly why I love what I do. Check out her portfolio here to see her amazing work!",
+      name: 'Cleopatra',
       link: 'https://cleoladiva1234.github.io/CleoMetrics.github.io/'
     },
   ];

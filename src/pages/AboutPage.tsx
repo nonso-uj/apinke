@@ -3,6 +3,7 @@ import Footer from "../components/Footer"
 // import Testimonial from "../components/Testimonial"
 import { FaqsAccordion } from "../components/Accordion"
 import { useEffect } from "react"
+import Testimonial from "@/components/Testimonial"
 
 const AboutPage = () => {
 
@@ -35,6 +36,10 @@ const AboutPage = () => {
 
           <p>My mission is simple: to empower you to use data to solve problems, make informed decisions, and tell your unique story.</p>
         </div>
+
+
+        {/* TESTIMONIAL */}
+        <Testimonial />
         
 
         {/* FAQS */}
