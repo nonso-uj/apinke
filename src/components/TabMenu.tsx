@@ -19,7 +19,7 @@ const TabMenu = () => {
               <div className="w-10/12 lg:w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-5 py-10">
                 <p className="text-sm lg:text-lg font_extra font-bold uppercase">Portfolio Workshop</p>
                 <p className="text-xl lg:text-3xl font_regular font-semibold">Take Control of Your Data Analytics Journey with Personalized Project Guidance</p>
-                <p className="text-base font_regular font-normal">You’ve taken the courses, watched the videos, and learned the theories but how do you turn that knowledge into a career-worthy portfolio? If you’ve ever felt overwhelmed trying to choose the right projects or unsure about where to start, you’re not alone. This consultation is for people like you who are serious about building a successful data science career.</p>
+                <p className="text-base font_regular font-normal">You’ve taken the courses, watched the videos, and learned the theories but how do you turn that knowledge into a career-worthy portfolio? If you’ve ever felt overwhelmed trying to choose the right projects or unsure about where to start, you’re not alone. This workshop is for people like you who are serious about building a powerful portfolio to land your dream data job.</p>
                 <Link to={'/services/portfolio-workshop'} className="w-fit">
                   <button className="border-solid border-2 border-white px-10 py-3 rounded-full text-base font-semibold font_regular uppercase duration-200 hover:bg-white hover:text-black flex flex-row items-center gap-x-3 hover:gap-x-1">Find out more <MdArrowOutward size={20} /></button>
                 </Link>

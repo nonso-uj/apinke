@@ -7,7 +7,7 @@ import { useEffect } from "react"
 const AboutPage = () => {
 
   useEffect(() => {
-    // window.scrollTo(0, 0)
+    window.scrollTo(0, 0)
   }, [])
 
   return (
@@ -21,7 +21,7 @@ const AboutPage = () => {
         </div>
 
         <div className="px-2 lg:w-3/4 mx-auto flex flex-col items-start justify-start gap-y-5 font_regular text-lg font-medium lg:mb-32">
-          <p className="font-extrabold font_extra text-base lg:text-2xl">Helping You Use Data to Shape Your Future</p>
+          <p className="font-extrabold font_extra text-base lg:text-2xl">Helping Everyone Make Sense of Data</p>
 
           <p>Hi, I’m Inioluwa Apinke Afolabi, an educator and data professional.</p>
 

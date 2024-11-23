@@ -27,7 +27,7 @@ const WorkPage = () => {
     // },
     {
         title: "Portfolio Workshop",
-        excerpt: "You’ve taken the courses, watched the videos, and learned the theories but how do you turn that knowledge into a career-worthy portfolio? If you’ve ever felt overwhelmed trying to choose the right projects or unsure about where to start, you’re not alone. This consultation is for people like you who are serious about building a successful data science career.",
+        excerpt: "You’ve taken the courses, watched the videos, and learned the theories but how do you turn that knowledge into a career-worthy portfolio? If you’ve ever felt overwhelmed trying to choose the right projects or unsure about where to start, you’re not alone. This workshop is for people like you who are serious about building a powerful portfolio to land your dream data job.",
         image: "/images/library.webp",
         link: "/services/portfolio-workshop",
     },

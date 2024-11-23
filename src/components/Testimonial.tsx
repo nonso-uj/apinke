@@ -68,7 +68,7 @@ const Testimonial = () => {
             className="mySwiper my-swiper"
           >
             {
-              testimonials.map((item :any, i: any) => (
+              testimonials.concat(testimonials).map((item :any, i: any) => (
                 <SwiperSlide key={i} className='!h-auto'>
                     <div className="w-full flex flex-col items-start justify-end p-5 bg-white">
                       <div className="w-full space-y-4">

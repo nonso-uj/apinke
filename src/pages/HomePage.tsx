@@ -103,7 +103,7 @@ const customTheme: CustomFlowbiteTheme = {
 const HomePage = () => {
 
   useEffect(() => {
-    // window.scrollTo(0, 0)
+    window.scrollTo(0, 0)
   }, [])
   
   return (
@@ -171,7 +171,7 @@ const HomePage = () => {
 
             <div className="w-full flex flex-col lg:flex-row items-center justify-start lg:justify-between gap-y-5 gap-x-5 py-5 lg:py-14 px-4 lg:px-12 bg-white z-10">
               <div className="w-full lg:w-1/3 h-full">
-                <img src="/images/impact1.png" className="w-full h-auto object-cover object-center" alt="" />
+                <img src="/images/class.jpg" className="w-full h-auto max-h-[60vh] object-cover object-center" alt="" />
               </div>
 
               <div className="w-full lg:w-2/3 flex flex-col justify-start items-start gap-y-5">
