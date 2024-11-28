@@ -1,8 +1,9 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
-import Testimonial from "../components/Testimonial"
+// import Testimonial from "../components/Testimonial"
 import { FaqsAccordion } from "../components/Accordion"
 import { useEffect } from "react"
+import Testimonial from "@/components/Testimonial"
 
 const AboutPage = () => {
 
@@ -13,39 +14,36 @@ const AboutPage = () => {
   return (
     <div className="container-div box-border z-20  w-full overflow-hidden bg-[#e7e2dc]">
         <Navbar />
-        
-        <div className="w-full flex flex-row items-center justify-between py-24">
-          <div className="w-full flex flex-row items-center justify-center">
-            <p className="w-11/12 lg:w-2/3 text-[2.8rem] lg:text-7xl font_regular font-medium py-16 lg:py-24 border-solid border-b border-neutral-400">Empowering Brands with Data-Driven Success</p>
-          </div>
-        </div>
-        
-        <div className="w-full h-[100vh] flex flex-row items-center justify-center py-12">
-          <div className="h-full w-full lg:w-4/5 flex flex-col lg:flex-row items-center justify-center gap-y-5">
-            <div className="w-full lg:w-2/5 h-[90vh] flex flex-row items-start justify-center">
-              <p className="w-11/12 text-3xl font_regular font-medium px-3">Enabling brands to achieve sustainable growth through data-driven strategies.</p>
-            </div>
-            <div className="w-full lg:w-3/5 h-[90vh] flex flex-row items-center justify-center px-0 lg:px-5">
-              <img src="/images/hero.jpg" className="w-full h-full object-cover object-top" alt="" />
-            </div>
+
+        <div className="w-full h-screen p-2 flex flex-row items-center justify-center">
+          <div className="w-full lg:w-4/5 h-4/5 overflow-hidden">
+            <img src="/images/IMG_2733aa.jpg"  className="w-full h-full object-cover object-top" alt="" />
           </div>
         </div>
 
-        <div className="w-full py-20">
-          <div className="w-11/12 lg:w-4/5 mx-auto flex flex-col items-start justify-between gap-y-4 text-lg font_regular">
-            <p>I am a seasoned data scientist on a mission to empower brands to reach their full potential. As a startup entrepreneur, I recognize the pivotal role of data-driven strategies in achieving business success. My dedication lies in guiding brands towards making informed decisions that elevate their performance and drive sustainable growth.</p>
-            <p>From risk assessment to trend forecasting and consumer behavior analysis, I specialize in harnessing historical data to develop predictive models that drive actionable insights. With a diverse portfolio spanning renowned organizations such as Grapplespace, Foursquare, House on the Rock, and the University of Lagos, I've honed my expertise across various industries.</p>
-            <p>Currently, I proudly serve as the Co-founder of EdProfile, a revolutionary data analytics-driven school management software. This innovative platform streamlines administrative workflows and enhances teaching-learning processes, revolutionizing the education sector.
-            </p>
-            <p>Beyond my professional endeavors, I am deeply committed to nurturing the next generation of data analysts. Through mentorship initiatives, I empower aspiring professionals with the skills and knowledge needed to thrive in the dynamic field of data analytics. Through my guidance, I aim to inspire the next generation of data scientists to innovate and lead in an ever-evolving digital landscape.</p>
-          </div>
+        <div className="px-2 lg:w-3/4 mx-auto flex flex-col items-start justify-start gap-y-5 font_regular text-lg font-medium lg:mb-32">
+          <p className="font-extrabold font_extra text-base lg:text-2xl">Helping Everyone Make Sense of Data</p>
+
+          <p>Hi, I’m Inioluwa Apinke Afolabi, an educator and data professional.</p>
+
+          <p>My journey into data has led me to one undeniable truth: data has the power to unlock opportunities for everyone, regardless of their background or experience. That belief is at the heart of everything I do.</p>
+          
+          <p>As the founder of Data for Next Gen Africa, I work to bring data literacy to schools across the country. My mission goes beyond teaching technical skills; it’s about helping young people see data as a tool for understanding the world and unlocking opportunities in a tech-driven future.</p>
+          
+          <p>I’m also the creator of SQL Query Corner, a platform designed to simplify SQL and make navigating databases accessible to everyone. I know how overwhelming complex syntax can feel, which is why I focus on transforming confusion into clarity through hands-on, real-world projects.</p>
+
+          <p>Whether I’m guiding students through challenging assignments or helping business owners make data-driven decisions, my approach is always hands-on and personalized. I don’t just teach you how to use tools, I walk with you every step of the way, ensuring learning is seamless, practical, and tailored to your goals.</p>
+
+          <p>My mission is simple: to empower you to use data to solve problems, make informed decisions, and tell your unique story.</p>
         </div>
+
 
         {/* TESTIMONIAL */}
         <Testimonial />
+        
 
         {/* FAQS */}
-        <div className="z-20 w-full py-14 my-10">
+        <div className="z-20 w-full lg:w-5/6 mx-auto py-14 my-10">
           <div className="lg:container mx-auto">
             <p className="text-start text-5xl font_bold font-bold pl-5 lg:pl-0 mb-10">FAQS</p>
 

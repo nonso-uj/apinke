@@ -121,7 +121,7 @@ const ContactPage = () => {
                       <FaYoutube size={30} className='hover:text-orange-500' />
                     </a> */}
 
-                    <a href="https://www.instagram.com/theapinke/">
+                    <a href="https://www.instagram.com/theapinke/" target="_blank">
                       <FaInstagram size={30} className='hover:text-orange-500' />
                     </a>
                   </div>

@@ -11,69 +11,27 @@ export function FaqsAccordion() {
   return (
     <Accordion collapseAll className="w-full">
     <Accordion.Panel>
-        <Accordion.Title>What is Flowbite?</Accordion.Title>
+        <Accordion.Title>Can you handle data projects for any industry or specific niche?</Accordion.Title>
         <Accordion.Content>
-        <p className="mb-2">
-            Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons,
-            dropdowns, modals, navbars, and more.
-        </p>
-        <p className="">
-            Check out this guide to learn how to&nbsp;
-            <a
-            href="https://flowbite.com/docs/getting-started/introduction/"
-            className="text-cyan-600 hover:underline dark:text-cyan-500"
-            >
-            get started&nbsp;
-            </a>
-            and start developing websites even faster with components on top of Tailwind CSS.
-        </p>
+            <p className="mb-2">
+                Yes, I specialize in providing data solutions across a range of industries, from helping students with academic projects to supporting business owners in visualizing their sales trends. No matter the scale or scope, I tailor my data analysis services to meet your unique needs.
+            </p>
         </Accordion.Content>
     </Accordion.Panel>
     <Accordion.Panel>
-        <Accordion.Title>Is there a Figma file available?</Accordion.Title>
+        <Accordion.Title> I have a data project for school, but I don’t know where to start. Can you help?</Accordion.Title>
         <Accordion.Content>
-        <p className="mb-2">
-            Flowbite is first conceptualized and designed using the Figma software so everything you see in the library
-            has a design equivalent in our Figma file.
-        </p>
-        <p className="">
-            Check out the
-            <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-            Figma design system
-            </a>
-            based on the utility classes from Tailwind CSS and components from Flowbite.
-        </p>
+            <p className="mb-2">
+                Absolutely! Whether you're struggling with understanding data concepts or need help with a specific project, I provide tutoring and project support to guide you through your analysis. From understanding your data set to helping you with tools like Excel, SQL, R, Power BI, or Python, we’ll work together to ensure you complete your project successfully and with confidence.
+            </p>
         </Accordion.Content>
     </Accordion.Panel>
     <Accordion.Panel>
-        <Accordion.Title>What are the differences between Flowbite and Tailwind UI?</Accordion.Title>
+        <Accordion.Title>I work full-time and have a hectic schedule. Can your 8-week course fit into my busy life?</Accordion.Title>
         <Accordion.Content>
-        <p className="mb-2">
-            The main difference is that the core components from Flowbite are open source under the MIT license, whereas
-            Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone
-            components, whereas Tailwind UI offers sections of pages.
-        </p>
-        <p className="mb-2">
-            However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no
-            technical reason stopping you from using the best of two worlds.
-        </p>
-        <p className="mb-2">Learn more about these technologies:</p>
-        <ul className="list-disc pl-5">
-            <li>
-            <a href="https://flowbite.com/pro/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                Flowbite Pro
-            </a>
-            </li>
-            <li>
-            <a
-                href="https://tailwindui.com/"
-                rel="nofollow"
-                className="text-cyan-600 hover:underline dark:text-cyan-500"
-            >
-                Tailwind UI
-            </a>
-            </li>
-        </ul>
+            <p className="mb-2">
+                Yes! My data analytics course is flexible and designed for people with full-time jobs, parenting responsibilities, or other commitments. We offer live sessions that can be tailored to fit your schedule, and I provide one-on-one support throughout the program. You’ll get the skills you need to excel in data without having to compromise on your personal or professional responsibilities.
+            </p>
         </Accordion.Content>
     </Accordion.Panel>
     </Accordion>
