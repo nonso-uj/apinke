@@ -15,8 +15,9 @@ const WorkPage = () => {
   const services = [
     {
         title: "ALL MY SERVICES",
-        excerpt: "Here you can explore all the services I render. Various ways I can help you achieve your dreams.",
-        image: "",
+        titleOpen: "Here’s How I Can Help You",
+        excerpt: "Whether you're looking to kickstart your data career, build an impressive portfolio, or solve complex data challenges, my services and solutions are tailored to meet your needs. From hands-on workshops to on-demand analytics support, I’m here to guide you every step of the way.",
+        image: "/images/apinke8.jpg",
         link: "#",
     },
     // {
@@ -28,18 +29,21 @@ const WorkPage = () => {
     {
         title: "Portfolio Workshop",
         excerpt: "You’ve taken the courses, watched the videos, and learned the theories but how do you turn that knowledge into a career-worthy portfolio? If you’ve ever felt overwhelmed trying to choose the right projects or unsure about where to start, you’re not alone. This workshop is for people like you who are serious about building a powerful portfolio to land your dream data job.",
+        action: "Start Building Your Portfolio",
         image: "/images/library.webp",
         link: "/services/portfolio-workshop",
     },
     {
         title: "8-Week Data Analytics Program",
         excerpt: "You’re not just a busy professional, a parent balancing endless responsibilities, or a student with too much on your plate. You’re someone who’s ready to take charge of your future, to change your life by gaining the skills that will make you relevant in today’s data-driven world.",
+        action: "Join The Program Now",
         image: "/images/library.webp",
         link: "/services/data-analytics-program",
     },
     {
         title: "On-Demand Data Analyst Services",
         excerpt: "Whether you're a student struggling with a class project, a business owner seeking clearer insights from your data, or a corporate executive needing expert analysis to guide decision-making, I offer customized data solutions tailored to your specific needs.",
+        action: "Get Expert Help Today",
         image: "/images/library.webp",
         link: "/services/data-analyst-services",
     },
@@ -96,17 +100,17 @@ const WorkPage = () => {
                     >
                       <Link to={service.link} className="w-full h-full flex flex-col items-start justify-between gap-y-5 p-4">
                         <div className="grow w-full flex flex-col justify-start items-center gap-y-3 px-10 text-center">
-                          <p className="text-6xl font-bold font_black">{service.title}</p>
+                          <p className="text-6xl font-bold font_black">{service.titleOpen ? service.titleOpen : service.title}</p>
                           <p className="text-xl font_regular font-semibold w-full">{service.excerpt}</p>
 
                           {i > 0 && (
-                            <button className="text-base font-bold font_regular uppercase duration-200 flex flex-row items-center gap-x-3 hover:gap-x-1 underline decoration-dotted">Find out more <MdArrowOutward size={20} /></button>
+                            <button className="text-base font-bold font_regular uppercase duration-200 flex flex-row items-center gap-x-3 hover:gap-x-1 underline decoration-dotted">{service.action} <MdArrowOutward size={20} /></button>
                           )}
                         </div>
 
                         {service.image && (
                           <div className="shrink h-full max-h-[40vh] w-full overflow-hidden">
-                            <img src={service.image} className="h-full w-full object-cover object-center duration-500 hover:scale-125" alt="" />
+                            <img src={service.image} className={`h-full w-4/5 mx-auto object-cover  duration-500 hover:scale-125 ${i === 0 ? 'object-top' : 'object-center'}`} alt="" />
                           </div>
                         )}
                       </Link>
@@ -147,11 +151,11 @@ const WorkPage = () => {
                     >
                       <Link to={service.link} className="w-full h-full flex flex-col items-start justify-between gap-y-5 p-4">
                         <div className="grow w-full flex flex-col justify-start items-center gap-y-3 text-center">
-                          <p className="text-xl font-bold font_black">{service.title}</p>
-                          <p className="text-base font_regular font-regular w-full">{service.excerpt}</p>
+                          <p className="text-xl font-bold font_black">{service.titleOpen ? service.titleOpen : service.title}</p>
+                          <p className="text-sm font_regular font-regular w-full">{service.excerpt}</p>
 
                           {i > 0 && (
-                            <button className="text-sm font-bold font_regular uppercase duration-200 flex flex-row items-center gap-x-3 hover:gap-x-1 underline decoration-dotted">Find out more <MdArrowOutward size={20} /></button>
+                            <p className="text-nowrap text-sm font-bold font_regular uppercase duration-200 flex flex-row items-center gap-x-3 hover:gap-x-1 underline decoration-dotted">{service.action} <MdArrowOutward size={20} /></p>
                           )}
                         </div>
                       </Link>
