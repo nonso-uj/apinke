@@ -10,6 +10,14 @@ import { useFormik } from 'formik';
 import  * as emailjs from "@emailjs/browser"
 import { useToast } from "@/hooks/use-toast"
 import { Toaster } from "@/components/ui/toaster"
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
+
 
 const ContactPage = () => {
   const { toast } = useToast();
@@ -32,7 +40,6 @@ const ContactPage = () => {
         .required('Required'),
       email: Yup.string().email('Invalid email address').required('Required'),
       subject: Yup.string()
-        .max(20, 'Must be 20 characters or less')
         .required('Required'),
       message: Yup.string()
         .required('Required'),
@@ -51,21 +58,19 @@ const ContactPage = () => {
 
       emailjs.send('service_jse0iq9', 'contact_form', values).then(
         (response) => {
-          console.log('SUCCESS!', response.status, response.text);
           toast({
             variant: "success",
             title: "Success!!",
-            description: "Your message has been sent.",
+            description: "Your message has been sent." + response,
           })
           resetForm();
           setLoading(false)
         },
         (error) => {
-          console.log('FAILED...', error);
           toast({
             variant: "destructive",
             title: "Uh oh! Something went wrong.",
-            description: "Please check your connection and try again!",
+            description: "Please check your connection and try again!" + error,
           })
           setLoading(false)
         },
@@ -82,8 +87,8 @@ const ContactPage = () => {
         <div className='w-full grow flex flex-col lg:flex-row items-center justify-center mb-10 lg:mb-0'>
           <div className='flex flex-col items-start justify-between gap-y-8 w-full lg:w-1/3 text-black pl-5 lg:pl-20 py-20 z-20'>
               {/* <div className='flex flex-col items-start justify-start gap-y-2'> */}
-                  <p className='text-xl'>Get In Touch</p>
-                  <p className='text-7xl font-semibold'>Drop Me <br />A Line</p>
+                  <p className='text-5xl font-semibold font_bold'>Let’s Connect</p>
+                  <p className='text-xl font_regular'>Whether you have a question, want to sign up for a program, need help with your data, or just want to explore how we can work together, I’d love to hear from you</p>
               {/* </div> */}
 
               <div className='flex flex-col items-start justify-start gap-y-5 text-base w-full'>
@@ -169,13 +174,23 @@ const ContactPage = () => {
 
             <div className="h-24 flex flex-col items-start justify-between w-full gap-y-2">
                 <Label htmlFor="subject" className="text-lg font-semibold">Subject *</Label>
-                <Input 
-                  type="text" 
-                  id="subject" name="subject" placeholder="Subject of message" className="bg-transparent w-full border-black focus:border-orange-500 focus-visible:ring-orange-500 caret-orange-500" 
-                  onChange={formik.handleChange}
-                  onBlur={formik.handleBlur}
+
+                <Select 
                   value={formik.values.subject}
-                />
+                  onValueChange={(value) => formik.setFieldValue("subject", value)}
+                >
+                  <SelectTrigger
+                    id="subject" 
+                    className="bg-transparent w-full border-black focus:border-orange-500 focus-visible:ring-orange-500 caret-orange-500" 
+                  >
+                    <SelectValue placeholder="Subject of message" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="Sign up for my portfolio workshop">Sign up for my portfolio workshop</SelectItem>
+                    <SelectItem value="Sign up for my data analytics program">Sign up for my data analytics program</SelectItem>
+                    <SelectItem value="Get Expert Data Analytics">Get Expert Data Analytics</SelectItem>
+                  </SelectContent>
+                </Select>
 
                 {formik.touched.subject && formik.errors.subject ? (
                   <div className="text-red-800 text-xs">{formik.errors.subject}</div>

@@ -22,7 +22,7 @@ const AnalystServices = () => {
 
         <div className="w-full py-10 lg:py-20 px-5 lg:px-0 flex flex-col lg:flex-row items-center justify-center gap-y-10">
           <div className="w-full lg:w-2/5">
-            <img src="/images/demand.png" className="w-3/4 h-auto object-cover object-center mx-auto" alt="" />
+            <img src="/images/apinke0.jpg" className="w-3/4 h-auto object-cover object-center mx-auto max-h-[70vh]" alt="" />
           </div>
 
           <div className="hidden lg:block h-[450px] border-r border-black border-solid mx-8"></div>
@@ -37,8 +37,10 @@ const AnalystServices = () => {
         <hr className="w-3/5 mx-auto border-[1px] border-black" />
 
         <div className="w-full flex flex-col lg:flex-row items-center justify-center px-6 lg:px-10 gap-y-3 my-10 lg:my-20">
-          <div className="w-full lg:w-2/5 grow self-start px-0 lg:px-10">
+          <div className="w-full lg:w-2/5 lg:h-full grow self-start lg:flex lg:flex-col lg:items-center lg:justify-between lg:gap-y-5 px-0 lg:px-10">
             <p className="text-center lg:text-start text-black font_extra lg:font_black font-bold text-3xl lg:text-5xl leading-tight">Who can benefit from this?</p>
+
+            <img src="/images/apinke7.jpg" className="hidden lg:block w-full h-auto object-cover object-center mx-auto max-h-[60vh]" alt="" />
           </div>
 
           <div className="hidden lg:block h-[450px] border-r border-black border-solid mx-16"></div>
@@ -113,16 +115,18 @@ const AnalystServices = () => {
         <div className="w-full flex flex-col lg:flex-row items-center justify-center px-5 lg:px-10 gap-y-3">
           <div className="w-full lg:w-2/5 grow self-start px-0 lg:px-10">
             <p className="text-center lg:text-start text-black font_extra lg:font_black font-bold text-3xl lg:text-5xl leading-tight">Consultation Fee</p>
+
+            <img src="/images/consult.png" className="hidden lg:block w-full h-auto object-cover object-center mx-auto max-h-[60vh]" alt="" />
           </div>
 
           <div className="hidden lg:block h-[400px] border-r border-black border-solid mx-8"></div>
 
           <div className="w-full lg:w-3/5">
-            <p className="font_regular text-xl lg:text-4xl font-regular leading-tight">For a personalized consultation, I offer a 1-hour call for just $25. During this session, we'll discuss your specific needs and how I can help you tackle your data challenges with precision and clarity.</p>
+            <p className="font_regular text-xl lg:text-4xl font-regular leading-tight">Let’s take the first step together. I offer a one-hour session for just $25, where we’ll get into your unique needs and explore how I can help you tackle your data challenges. This is your chance to get personalized guidance and clarity on your next steps. Ready to make sense of your data? Let’s chat</p>
           </div>
         </div>
 
-        <hr className="w-4/5 mx-auto border lg:border-2 border-black my-28" />
+        <hr className="w-4/5 mx-auto border lg:border-2 border-black my-10" />
       
         <div className="w-full h-[60vh] lg:h-[50vh]">
             <div className="w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-3 font_regular">

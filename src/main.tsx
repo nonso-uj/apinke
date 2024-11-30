@@ -51,7 +51,8 @@ const router = createBrowserRouter([
   },
   {
     path: '/contact',
-    element: <ContactPage />
+    element: <ContactPage />,
+    // errorElement: <NotFound />
   },
   {
     path: '/*',

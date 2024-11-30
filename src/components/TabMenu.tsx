@@ -66,12 +66,12 @@ const TabMenu = () => {
         <Tabs.Item title="On-Demand Data Analyst Services">
           <div className="w-full flex flex-col lg:flex-row items-center justify-center bg-black text-white">
             <div className="w-full h-full">
-              <img src="/images/tab3.jpg" alt="" className="w-full h-60 lg:h-[80vh] object-cover object-top" />
+              <img src="/images/hero.jpg" alt="" className="w-full h-60 lg:h-[80vh] object-cover object-top" />
             </div>
             <div className="w-full h-full">
               <div className="w-10/12 lg:w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-5 py-10">
                 <p className="text-sm lg:text-lg font_extra font-bold uppercase">On-Demand Data Analyst Services</p>
-                <p className="text-xl lg:text-3xl font_regular font-semibold">Get Expert Data Analysis for Any Challenge-Academic, Professional, or Business</p>
+                <p className="text-xl lg:text-3xl font_regular font-semibold">Get Expert Data Analytics for Any Challenge-Academic, Professional, or Business</p>
                 <p className="text-base font_regular font-normal">Whether you're a student struggling with a class project, a business owner seeking clearer insights from your data, or a corporate executive needing expert analysis to guide decision-making, I offer customized data solutions tailored to your specific needs.</p>
                 <Link to={'/services/data-analyst-services'} className="w-fit">
                   <button className="border-solid border-2 border-white px-10 py-3 rounded-full text-base font-semibold font_regular uppercase duration-200 hover:bg-white hover:text-black flex flex-row items-center gap-x-3 hover:gap-x-1">Find out more <MdArrowOutward size={20} /></button>

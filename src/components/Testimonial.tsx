@@ -11,12 +11,14 @@ const Testimonial = () => {
     {
       text: "Learning with Inioluwa was a transformative experience. Her teaching style made everything so much easier to understand and her patience and encouragement stood out. Whether online or offline, the sessions were well-structured, focused, and tailored to help me improve. I always felt supported as we tackled challenges together, knowing we’d pull through. Thanks to Ini’s guidance, I’ve gained not only valuable skills but also confidence in my abilities.",
       name: 'Somtoochukwu Nwadiogbu',
-      link: 'https://nwa-ivans.github.io/Nwadiogbuivans.github.io/'
+      link: 'https://nwa-ivans.github.io/Nwadiogbuivans.github.io/',
+      disposition: "guy"
     },
     {
       text: "I couldn’t be more proud of Cleopatra. After our lessons, she took everything she learned and turned it into something incredible. Her portfolio is a testament to her hard work, talent, and ability to apply knowledge to real-world projects. Seeing her growth is exactly why I love what I do. Check out her portfolio here to see her amazing work!",
       name: 'Cleopatra',
-      link: 'https://cleoladiva1234.github.io/CleoMetrics.github.io/'
+      link: 'https://cleoladiva1234.github.io/CleoMetrics.github.io/',
+      disposition: "girl"
     },
   ];
 
@@ -36,7 +38,7 @@ const Testimonial = () => {
                       <h6 className="self-center text-center">{item.name}</h6>
 
                       <a href={item.link} target="_blank" className="inline self-center mt-3">
-                        <button className="bg-black text-white font-bold font_regular uppercase text-sm px-5 py-3 flex flex-row items-center gap-x-3 hover:gap-x-1 rounded-full">check out their website <MdArrowOutward size={20} /></button>
+                        <button className="bg-black text-white font-bold font_regular uppercase text-sm px-5 py-3 flex flex-row items-center gap-x-3 hover:gap-x-1 rounded-full">check out { item.disposition === 'guy' ? 'his' : "her" } website <MdArrowOutward size={20} /></button>
                       </a>
                     </div>
                   </div>
@@ -81,7 +83,7 @@ const Testimonial = () => {
 
                       <div className="w-full flex flex-row items-end justify-center">
                         <a href={item.link} target="_blank">
-                          <button className="bg-black text-white font-bold font_regular uppercase text-sm px-5 py-3 flex flex-row items-center gap-x-3 hover:gap-x-1 rounded-full">check out their website <MdArrowOutward size={20} /></button>
+                          <button className="bg-black text-white font-bold font_regular uppercase text-sm px-5 py-3 flex flex-row items-center gap-x-3 hover:gap-x-1 rounded-full">check out { item.disposition === 'guy' ? 'his' : "her" } website <MdArrowOutward size={20} /></button>
                         </a>
                       </div>
                     </div>

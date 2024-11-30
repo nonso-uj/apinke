@@ -7,7 +7,7 @@ import { MdArrowOutward } from "react-icons/md";
 const WorkshopPage = () => {
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    // window.scrollTo(0, 0)
   }, [])
 
     
@@ -24,7 +24,7 @@ const WorkshopPage = () => {
 
         <div className="w-full py-10 px-5 lg:px-0 flex flex-col lg:flex-row items-center justify-center">
           <div className="w-full lg:w-2/5">
-            <img src="/images/portfolio.png" className="w-full h-auto object-cover object-center" alt="" />
+            <img src="/images/apinke2.jpg" className="w-full h-auto object-cover object-center max-h-[70vh]" alt="" />
           </div>
 
           <div className="hidden lg:block h-[450px] border-r border-black border-solid mx-8"></div>
@@ -110,17 +110,17 @@ const WorkshopPage = () => {
 
         <div className="w-full px-5 lg:px-10 flex flex-col lg:flex-row items-center justify-center">
           <div className="order-1 lg:order-3 w-full lg:w-2/5">
-            <img src="/images/impact3.png" className="w-full h-auto object-cover object-center" alt="" />
+            <img src="/images/apinke6.jpg" className="w-full h-auto object-cover object-center max-h-[70vh]" alt="" />
           </div>
 
           <div className="order-2 hidden lg:block h-[450px] border-r border-black border-solid mx-8"></div>
 
           <div className="order-3 lg:order-1 w-full lg:w-3/5 space-y-5">
-            <p className="font-bold font_extra text-2xl">Curious about the impact of this workshop?</p>
+            <p className="w-full font-bold font_extra text-2xl lg:text-5xl">Curious about the impact of this workshop?</p>
 
-            <p className="font_regular text-xl lg:text-4xl font-regular leading-tight">Take a look at some portfolios crafted by students I’ve worked with. These projects reflect the skills and confidence they gained through our sessions. <br /><br />Check below to explore their work</p>
+            <p className="w-full font_regular text-xl lg:text-xl font-regular leading-tight">Take a look at some portfolios crafted by students I’ve worked with. These projects reflect the skills and confidence they gained through our sessions. <br /><br />Check below to explore their work</p>
             
-            <ul className="list-disc list-outside ml-5 lg:ml-16 space-y-5">
+            <ul className="w-full list-disc list-outside ml-5 lg:ml-16 space-y-5">
               <li>
                 <a href="https://nwa-ivans.github.io/Nwadiogbuivans.github.io/" className="inline-block w-fit">
                   <p className="w-fit flex flex-row justify-start items-center gap-x-5 uppercase font-semibold font_regular text-xl underline decoration-dotted hover:underline hover:decoration-solid underline-offset-4">Somtoochukwu Nwadiogbu <MdArrowOutward size={20} className="shrink-0 inline" /></p>
@@ -139,9 +139,9 @@ const WorkshopPage = () => {
       
         <div className="w-full h-[60vh] lg:h-[50vh]">
             <div className="w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-3 font_regular">
-                <p className="font_extra text-primary font-semibold text-lg lg:text-2xl">Sign up now for $100</p>
+                {/* <p className="font_extra text-primary font-semibold text-lg lg:text-2xl">Sign up now for $100</p> */}
 
-                <p className="font_regular font-light text-[2.6rem] lg:text-[5.4rem] leading-[3.2rem] lg:leading-[8rem]"><Link to={'/contact'} className="underline decoration-dotted decoration-[#775647] decoration-2 underline-offset-[0.3rem] lg:underline-offset-[0.8rem]">Let’s create</Link> a portfolio that lands you the job you deserve.</p>
+                <p className="font_regular font-light text-[2.6rem] lg:text-[4.8rem] leading-[3.2rem] lg:leading-[8rem]"><Link to={'/contact'} className="font-medium underline decoration-dotted decoration-[#775647] decoration-2 underline-offset-[0.3rem] lg:underline-offset-[0.8rem]">Sign up now for $100</Link> <br />Let’s create a portfolio that lands you the job you deserve.</p>
             </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import { useEffect } from "react";
 const AnalyticsProgram = () => {
 
     useEffect(() => {
-        window.scrollTo(0, 0)
+        // window.scrollTo(0, 0)
     }, [])
 
   return (
@@ -22,7 +22,7 @@ const AnalyticsProgram = () => {
 
         <div className="w-full py-10 px-5 lg:px-0 flex flex-col lg:flex-row items-center justify-center">
           <div className="w-full lg:w-2/5">
-            <img src="/images/program.png" className="w-3/4 h-auto object-cover object-center mx-auto" alt="" />
+            <img src="/images/apinke3.jpg" className="w-3/4 h-auto max-h-[70vh] object-cover object-center mx-auto" alt="" />
           </div>
 
           <div className="hidden lg:block h-[450px] border-r border-black border-solid mx-8"></div>
@@ -105,8 +105,10 @@ const AnalyticsProgram = () => {
         <hr className="w-4/5 mx-auto border lg:border-2 border-black my-16 lg:my-28" />
 
         <div className="w-full flex flex-col lg:flex-row items-center justify-center px-5 lg:px-10 gap-y-3">
-          <div className="w-full lg:w-2/5 grow self-start px-0 lg:px-10">
-            <p className="text-center lg:text-start text-black font_extra lg:font_black font-bold text-3xl lg:text-5xl leading-tight">Why This Matters</p>
+          <div className="w-full lg:w-2/5 lg:h-full grow self-start lg:flex lg:flex-col lg:items-center lg:justify-between lg:gap-y-5 px-0 lg:px-10">
+            <p className="text-center lg:text-start text-black font_extra lg:font_black font-bold text-3xl lg:text-6xl leading-tight">Why This Matters</p>
+
+            <img src="/images/apinke4.jpg" className="hidden lg:block w-full h-auto object-cover object-center mx-auto max-h-[50vh]" alt="" />
           </div>
 
           <div className="hidden lg:block h-[400px] border-r border-black border-solid mx-8"></div>
