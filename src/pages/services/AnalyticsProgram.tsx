@@ -15,7 +15,7 @@ const AnalyticsProgram = () => {
         
       <div className="pt-20 lg:pt-16">
         <div className="w-full flex flex-row items-center justify-center py-10 px-10">
-            <p className="text-center text-primary font_black font-bold text-4xl lg:text-8xl leading-tight uppercase">8-Week Data Analytics Program</p>
+            <p className="text-center text-primary font_black font-bold text-4xl lg:text-8xl leading-tight uppercase">10-Weeks Data Analytics Program</p>
         </div>
 
         <hr className="w-4/5 mx-auto border lg:border-2 border-black" />
