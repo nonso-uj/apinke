@@ -34,7 +34,7 @@ const WorkPage = () => {
         link: "/services/portfolio-workshop",
     },
     {
-        title: "8-Week Data Analytics Program",
+        title: "10-Week Data Analytics Program",
         excerpt: "You’re not just a busy professional, a parent balancing endless responsibilities, or a student with too much on your plate. You’re someone who’s ready to take charge of your future, to change your life by gaining the skills that will make you relevant in today’s data-driven world.",
         action: "Join The Program Now",
         image: "/images/library.webp",
