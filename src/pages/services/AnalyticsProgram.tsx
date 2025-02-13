@@ -15,7 +15,7 @@ const AnalyticsProgram = () => {
         
       <div className="pt-20 lg:pt-16">
         <div className="w-full flex flex-row items-center justify-center py-10 px-10">
-            <p className="text-center text-primary font_black font-bold text-4xl lg:text-8xl leading-tight uppercase">10-Weeks Data Analytics Program</p>
+            <p className="text-center text-primary font_black font-bold text-4xl lg:text-8xl leading-tight uppercase">12-Week Data Analytics Program</p>
         </div>
 
         <hr className="w-4/5 mx-auto border lg:border-2 border-black" />
@@ -30,7 +30,7 @@ const AnalyticsProgram = () => {
           <div className="w-full lg:w-3/5 space-y-5 lg:pr-10">
             <p className="font-bold font_extra text-2xl">Some good news for you!</p>
 
-            <p className="font_regular text-xl lg:text-4xl font-regular leading-tight">You know that data analytics isn’t just a skill, it’s a pathway to new opportunities, better-paying roles, and a future where you have the power to shape your career. That’s why you’re here. And that’s why this <span className="text-primary underline decoration-[1px] underline-offset-[3px]">8-week Data Analytics Program</span> was built specifically for you.</p>
+            <p className="font_regular text-xl lg:text-4xl font-regular leading-tight">You know that data analytics isn’t just a skill, it’s a pathway to new opportunities, better-paying roles, and a future where you have the power to shape your career. That’s why you’re here. And that’s why this <span className="text-primary underline decoration-[1px] underline-offset-[3px]">10-week Data Analytics Program</span> was built specifically for you.</p>
           </div>
         </div>
         
@@ -49,7 +49,7 @@ const AnalyticsProgram = () => {
             </div>
             <div className="reason-section2">
                 <h2 className="fadeInUp font-bold font_extra">A Program That Meets You Where You Are</h2>
-                <p className="fadeInUp font_regular">We know you have a lot on your plate. Maybe you’re working a demanding 9-to-5, or you’re taking care of your family, or you’re trying to juggle school. But that doesn’t mean you have to put your goals on hold. This program is designed with flexibility in mind, so no matter how busy life gets, you’ll be able to learn at your own pace, on your own time.</p>
+                <p className="fadeInUp font_regular">We know you have a lot on your plate. Maybe you’re working a demanding 9-to-5, taking care of your family, or trying to juggle school. But that doesn’t mean you have to put your goals on hold. This program is designed with flexibility in mind, so no matter how busy life gets, you’ll be able to learn at your own pace, on your own time.</p>
             </div>
             <div className="animate__animated animate__infinite section-middot animate__pulse"></div>
         </div>
@@ -126,7 +126,7 @@ const AnalyticsProgram = () => {
             <div className="w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-3 font_regular">
                 <p className="font_extra text-primary font-semibold text-lg lg:text-xl">Your Investment:</p>
 
-                <p className="font_regular font-light text-[1.8rem] lg:text-[3rem]">For $370, you’ll get <Link to={'/contact'} className="font-medium underline decoration-dotted decoration-[#775647] decoration-2 underline-offset-[0.3rem] lg:underline-offset-[0.8rem]">10 weeks of live, interactive learning, one-on-one mentorship, and lifetime access to all course materials.</Link> This is more than a course - it’s your chance to build a future in the technological world with the skills that matter.</p>
+                <p className="font_regular font-light text-[1.8rem] lg:text-[3rem]">For $550, you’ll get <Link to={'/contact'} className="font-medium underline decoration-dotted decoration-[#775647] decoration-2 underline-offset-[0.3rem] lg:underline-offset-[0.8rem]">12 weeks of live, interactive learning, one-on-one mentorship, and lifetime access to all course materials.</Link> This is more than a course - it’s your chance to build a future in the technological world with the skills that matter.</p>
             </div>
         </div>
       </div>
