@@ -126,7 +126,7 @@ const AnalyticsProgram = () => {
             <div className="w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-3 font_regular">
                 <p className="font_extra text-primary font-semibold text-lg lg:text-xl">Your Investment:</p>
 
-                <p className="font_regular font-light text-[1.8rem] lg:text-[3rem]">For $200, you’ll get <Link to={'/contact'} className="font-medium underline decoration-dotted decoration-[#775647] decoration-2 underline-offset-[0.3rem] lg:underline-offset-[0.8rem]">8 weeks of live, interactive learning, one-on-one mentorship, and lifetime access to all course materials.</Link> This is more than a course - it’s your chance to build a future in the technological world with the skills that matter.</p>
+                <p className="font_regular font-light text-[1.8rem] lg:text-[3rem]">For $370, you’ll get <Link to={'/contact'} className="font-medium underline decoration-dotted decoration-[#775647] decoration-2 underline-offset-[0.3rem] lg:underline-offset-[0.8rem]">10 weeks of live, interactive learning, one-on-one mentorship, and lifetime access to all course materials.</Link> This is more than a course - it’s your chance to build a future in the technological world with the skills that matter.</p>
             </div>
         </div>
       </div>
