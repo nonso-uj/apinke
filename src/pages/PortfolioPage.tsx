@@ -11,6 +11,14 @@ const PortfolioPage = () => {
     }, [])
   
     const projects = [
+      {
+            title: "The Cohabitation Report",
+            category: "Canva",
+            year: "2025",
+            bg: "bg-[#A6AEBF]",
+            image: "/images/1_ZU4xzpu5Lb8xrQmcS_vQtQ.webp",
+            link: "https://www.canva.com/design/DAGefcfeM9g/GhlFhw5vHZ_5p-cUiMJXhg/edit?utm_content=DAGefcfeM9g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        },
         {
             title: "Candy Sales & Profitability Analysis Report",
             category: "MEDIUM",
