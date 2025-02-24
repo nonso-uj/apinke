@@ -16,7 +16,7 @@ const PortfolioPage = () => {
             category: "Canva",
             year: "2025",
             bg: "bg-[#A6AEBF]",
-            image: "/images/1_ZU4xzpu5Lb8xrQmcS_vQtQ.webp",
+            image: "/images/cohabitation%20report.jpg",
             link: "https://www.canva.com/design/DAGefcfeM9g/GhlFhw5vHZ_5p-cUiMJXhg/edit?utm_content=DAGefcfeM9g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         },
         {
