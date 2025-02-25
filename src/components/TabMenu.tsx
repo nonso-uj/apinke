@@ -51,7 +51,7 @@ const TabMenu = () => {
             </div>
             <div className="w-full h-full">
               <div className="w-10/12 lg:w-4/5 mx-auto h-full flex flex-col items-start justify-center gap-y-5 py-10">
-                <p className="text-sm lg:text-lg font_extra font-bold uppercase">8-Week Data Analytics Program</p>
+                <p className="text-sm lg:text-lg font_extra font-bold uppercase">12-Week Data Analytics Program</p>
 
                 <p className="text-xl lg:text-3xl font_regular font-semibold">Transform Your Future By Mastering Data Analytics, No Matter Where You Are in Life</p>
 
