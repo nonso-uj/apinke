@@ -27,7 +27,7 @@ export function FaqsAccordion() {
         </Accordion.Content>
     </Accordion.Panel>
     <Accordion.Panel>
-        <Accordion.Title>I work full-time and have a hectic schedule. Can your 8-week course fit into my busy life?</Accordion.Title>
+        <Accordion.Title>I work full-time and have a hectic schedule. Can your 12-week course fit into my busy life?</Accordion.Title>
         <Accordion.Content>
             <p className="mb-2">
                 Yes! My data analytics course is flexible and designed for people with full-time jobs, parenting responsibilities, or other commitments. We offer live sessions that can be tailored to fit your schedule, and I provide one-on-one support throughout the program. You’ll get the skills you need to excel in data without having to compromise on your personal or professional responsibilities.
