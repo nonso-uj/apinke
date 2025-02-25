@@ -36,6 +36,28 @@ export default function HomeWork() {
         modules={[Pagination, Autoplay, Navigation]}
         className="mySwiper my-swiper"
       >
+         <SwiperSlide className='!h-auto'>
+          <div className="w-full h-full flex-grow flex flex-col items-start justify-between p-5 bg-white">
+              <div className={`works w-full h-[30vh] bg-neutral-500 flex flex-row items-center justify-center`}>
+                  <img src={'/images/1_ZU4xzpu5Lb8xrQmcS_vQtQ.webp'} className="w-full h-full lg:h-full object-cover object-center duration-500" alt="" />
+              </div>
+
+              <div className="w-full flex flex-col items-start justify-end mt-4">
+                  <div className="w-full space-y-4">
+                      <p className="text-xl font_regular font-medium">The Cohabitation Report</p>
+                      
+                      <Link to={'https://www.canva.com/design/DAGefcfeM9g/GhlFhw5vHZ_5p-cUiMJXhg/edit?utm_content=DAGefcfeM9g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} className="h-full w-full">
+                        <p className='text-right underline underline-offset-[0.2rem] decoration-solid font-normal font_regular'>READ MORE</p>
+                      </Link>
+                  </div>
+
+                  <hr className="w-full my-4 border-solid border-b border-neutral-400" />
+
+                  <div className="w-full flex flex-row items-end justify-between font_regular text-sm font-medium">
+                      <p>Canva</p>
+                      <p>2024</p>
+                  </div>
+                
         <SwiperSlide className='!h-auto'>
           <div className="w-full h-full flex-grow flex flex-col items-start justify-between p-5 bg-white">
               <div className={`works w-full h-[30vh] bg-neutral-500 flex flex-row items-center justify-center`}>
